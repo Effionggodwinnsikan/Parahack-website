@@ -217,8 +217,10 @@ li :hover{
     color:var(--primary);
 
  }   
- 
-li{
+  .navbar ul{
+    list-style-type: none;
+  } 
+ .navMenu li{
     padding: 0 1rem;
     color: white;
     font-weight: var(--light);
@@ -229,7 +231,7 @@ li{
     display: none;
 }
 .navlink{
-    color: var(--primary);
+    color:white;
 }
 li :hover{
     color:var(--secondary);
@@ -263,21 +265,14 @@ li :hover{
         top: 70px; 
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 50%;
         position: absolute;
         justify-content:space-between;
-        left:0;
-        background-color: #f5f5f5;
+        right:0;
+        background-color:black;
         align-items:center;
         transition:0.3s;
-        flex-direction: column;
-        width: 100%;
-        position: absolute;
-        justify-content:space-between;
-        left:0;
-        background-color: #f5f5f5;
-        align-items:center;
-        transition:0.3s;
+        
         
 
     }

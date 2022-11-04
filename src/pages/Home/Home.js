@@ -2,6 +2,7 @@ import React from 'react'
 import HeroTemplate from "../../components/HeroTemplate/HeroTemplate"
 import Images from "../../assets/Images/hero-img1.jpg";
 import OurServices from "../../components/OurServices/OurServices";
+import  Email  from '../../components/Email/Email';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       "
       />
       <OurServices/>
+      <Email/>
     </div>
   )
 }

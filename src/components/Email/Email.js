@@ -2,6 +2,8 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Classes from "./Email.module.css";
 import Image from "../../assets/Images/Content-Relationships-1.jpg";
+import { FaPhoneAlt } from "react-icons/fa";
+import { TfiEmail } from "react-icons/tfi";
 
 const Result = () => {
   return (
@@ -44,37 +46,44 @@ const Email = () => {
       <img src={Image} alt="/" />
       <div className={Classes.overlay}></div>
       <form ref={form} onSubmit={sendEmail}>
-      <h2>We're Here To Help!</h2>
+        <h2>We're Here To Help!</h2>
         <div className={Classes.formInnerContainer}>
           <div>
-            <input type="text" placeholder="Name" name="firstName" />
+        <input className={Classes.emailInput} placeholder="text"  name="firstName" />
 
-            <input type="text" placeholder="Company Name" name="companyName" />
+            <input className={Classes.emailInput} type="text" placeholder="Company Name" name="companyName" />
           </div>
           <div>
-            <input type="email" placeholder="Email Address" name="email" />
+            <input className={Classes.emailInput} type="email" placeholder="Email Address" name="email" />
 
-            <input type="number" placeholder="Phone Number" name="phone" />
+            <input  className={Classes.emailInput} type="number" placeholder="Phone Number" name="phone" />
           </div>
         </div>
         <div>
           <textarea name="message" placeholder="What can we do for you?" />
         </div>
         <div className={Classes.btnContainer}>
-        <button className={Classes.btn}>
-          <p>SEND</p>
-        </button>
+          <button className={Classes.btn}>
+            <p>SEND</p>
+          </button>
         </div>
         <div className={Classes.row}>{result ? <Result /> : null}</div>
       </form>
       <div className={Classes.emailAddress}>
-        <div>
-          {" "}
-          <h4>email address</h4>
+        <div className={Classes.call}>
+          <div className={Classes.icons}>
+          <FaPhoneAlt className={Classes.phone}/>
+          <h3>Call Us</h3>
+          </div>
+          <p>1-855-979-TASK</p>
+          <p>(972) 449-5462</p>
         </div>
-        <div>
-          {" "}
-          <h4>Phone number</h4>
+        <div className={Classes.emailContainar}>
+          <div className={Classes.icons}>
+          <TfiEmail className={Classes.Email}/>
+          <h3>Email</h3>
+          </div>
+          <p>info@parahack.com</p>
         </div>
       </div>
     </div>

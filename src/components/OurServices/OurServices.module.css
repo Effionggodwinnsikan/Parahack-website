@@ -1,0 +1,42 @@
+.services{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:1rem;
+    
+}
+.servicesContainer{
+    width: 100%;
+    background: #fff;
+    padding: 1rem 2rem 1rem 2rem;
+    position: relative;
+    
+}
+
+.servicesContainer h2{
+    margin: 4rem auto 4rem;
+    justify-content: center;
+    text-align: center;
+    color: #1E1E1E;
+    
+    
+   
+}
+
+
+@media (max-width: 1024px){
+    .services{
+        
+        grid-template-columns: repeat(3,1fr);
+        
+        
+    }
+}
+@media (max-width: 768px){
+    .services{
+        
+        grid-template-columns: 1fr;
+        
+        
+    }
+    
+}

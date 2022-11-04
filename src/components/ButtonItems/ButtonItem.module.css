@@ -1,0 +1,11 @@
+.nav_btn{
+    background-color:var(--primary) ;
+    padding:1rem 2rem;
+    border-radius: 20px;
+    color:#fff;
+    border:none;
+}
+.nav_btn :hover{
+    background-color:var(--secondary) ;
+    
+}

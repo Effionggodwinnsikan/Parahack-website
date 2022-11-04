@@ -1,0 +1,45 @@
+.servicesimg img{
+   
+    width:100%;
+    border-radius: 10px;
+    
+}
+.servicesimg1{
+    width: 100%;
+}
+.servicesimg {
+    position: relative;
+    width: 100%;
+}
+
+
+
+
+.content{
+    background:#fff;
+    text-align: center;
+    color:  #464646;
+    border-radius: 0 0 10px 10px;
+    height: 6em;
+    padding:2rem 1rem ;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+
+}
+.content:hover{
+    box-shadow:   0px 10px 60px rgba(38, 45, 118, 0.09);
+}
+@media(max-width: 540px){
+    .content{
+        font-size: .8rem; 
+        padding:.5rem 1rem;
+    }
+}
+@media(max-width: 550px){
+    .servicesimg p{
+       
+        top:20%;
+        
+        
+    }
+}

@@ -40,6 +40,12 @@ h2{
 a{
   text-decoration: none;
 }
+ input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+} 
 button{
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),var(--primary);
   border-radius: 5px;

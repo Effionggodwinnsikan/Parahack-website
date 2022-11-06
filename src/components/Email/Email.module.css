@@ -31,13 +31,14 @@
 }
 .emailInput{
     border:none;
-    border-bottom: 3px solid var(--primary);
+    border-bottom: 3px solid var(--primary)!important;
     margin-top:3rem ;
     margin-right: 1rem;
     padding: 0.5rem 15rem 0.5rem 0.5rem;
     background-color: transparent !important;
     color: #fff;
     font-size:1rem;
+    
     
     
 }

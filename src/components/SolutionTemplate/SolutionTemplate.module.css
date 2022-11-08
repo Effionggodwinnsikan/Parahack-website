@@ -8,6 +8,7 @@
 }
 .servicesimg1{
     width: 100%;
+position: relative;
 }
 
 .overlay{
@@ -17,25 +18,35 @@
     height: 100%;
     top: 0;
     left: 0;
+    border-radius: 5px;
     
+}
+.overlay h3{
+    display:flex;
+    
+    justify-content:left;
 }
 
 
 .content{
-    background:#fff;
-    text-align: center;
-    color:  #464646;
+    
+    text-align: left;
+    color:  #fff;
     border-radius: 0 0 10px 10px;
     height: 6em;
+    top:25%;
+    left: 0;
     padding:2rem 1rem ;
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
     position: absolute;
 
 }
-.servicesBtn{
+.servicesbtn{
     margin:.6rem auto 1rem;
     position: absolute;
+    top: 50%;
+    left: 4%;
 }
 .content:hover{
     box-shadow:   0px 10px 60px rgba(38, 45, 118, 0.09);

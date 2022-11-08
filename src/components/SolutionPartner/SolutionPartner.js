@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import Classes from "./SolutionPartner.module.css";
 import Image from "../../assets/Images/fe-vs-be.jpg";
 import Image1 from "../../assets/Images/fem dev.jpg";
@@ -15,8 +16,8 @@ const SolutionPartner = () => {
   return (
     <div className={Classes.solution}>
       <div>
-        <div>
-      <h1>Solutions Partner</h1>
+        <div className={Classes.partner}>
+          <h2>Solutions Partner</h2>
           <p>
             We create solutions for complex issues and challenges that business
             enterprises encounter daily. Our innovative team consists of
@@ -30,39 +31,59 @@ const SolutionPartner = () => {
           <h3>Industry We Support</h3>
         </div>
         <div className={Classes.navContainer} onClick={handleNav}>
-          <div className={img ? Classes.active : Classes.solutionLi}>
-            <li onClick={Image}>
+          {img === Classes.active ? <li id="#" /> : null}
+          <div className={ Classes.solutionLi}>
+            <Link id="/software">
+            <li >
               <span>Software</span>
             </li>
-            <li onClick={Image1}>
+            </Link>
+            <Link id="/start-ups">
+            <li >
               <span>Start-ups</span>
             </li>
-            <li onClick={Image2}>
+            </Link>
+            <Link id="/legal">
+            <li >
               <span>Legal</span>
             </li>
-            <li onClick={Image3}>
+            </Link>
+            <Link id="/healthcare">
+            <li >
               <span>HealthCare</span>
             </li>
-            <li onClick={Image4}>
+            </Link>
+            <Link id="/manufacturing">
+            <li >
               <span>Manufacturing</span>
             </li>
-            <li onClick={Image5}>
+            </Link>
+            <Link id="/insurance">
+            <li >
               <span>Insurance</span>
             </li>
-            <li onClick={Image6}>
+            </Link>
+            <Link id="/contact">
+            <li >
               <span>Contractor</span>
             </li>
+            </Link>
           </div>
         </div>
       </div>
-          <div className={Classes.im}>
-            <SolutionTemplate
-              bgImg={Image}
-              alt="/"
-              content="Software"
-              text="Companies depend on us for white label partnerships and staff augmentation to help design and develop sophisticated software solutions."
-            />
-          </div>
+      <div  className={Classes.img}>
+        <SolutionTemplate
+          bgImg={Image}
+          alt="/"
+          content="Software"
+          id="/software"
+          text="Companies depend on us for white label partnerships and staff augmentation to help design and develop sophisticated software solutions."
+        />
+        
+        
+        
+        
+      </div>
     </div>
   );
 };

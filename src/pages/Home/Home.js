@@ -3,6 +3,7 @@ import HeroTemplate from "../../components/HeroTemplate/HeroTemplate"
 import Images from "../../assets/Images/hero-img1.jpg";
 import OurServices from "../../components/OurServices/OurServices";
 import  Email  from '../../components/Email/Email';
+import SolutionPartner from "../../components/SolutionPartner/SolutionPartner"
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       "
       />
       <OurServices/>
+      <SolutionPartner/>
       <Email/>
     </div>
   )

@@ -1,6 +1,7 @@
 import React from 'react'
 import Classes from "./HeroTemplate.module.css";
 import ButtonItems  from "../../components/ButtonItems/ButtonItem";
+import { Link } from "react-router-dom";
 
 const HeroTemplate = ({bgImg,text, content}) => {
   return (
@@ -13,7 +14,9 @@ const HeroTemplate = ({bgImg,text, content}) => {
            <p>
              {content}
              </p>
+             <Link to="/contact">
            <ButtonItems text={"GET STARTED"} />
+           </Link>
            </div>
     </div>
     </div>

@@ -1,0 +1,28 @@
+.navContainer{
+    display:flex;
+    justify-content:space-between;
+    
+}
+.solution{
+    display:flex;
+    padding: 6rem;
+}
+.solutionLi li{
+list-style-type: none;
+
+margin-top: 1.5rem;
+font-weight: var(--light);
+}
+.solutionLi{
+    overflow-y:scroll;
+    height:30vh;
+    width: 50%;
+}
+.active li{
+    border-bottom: 3px solid var(--primary);
+    padding-bottom:1rem;
+    list-style-type: none;
+
+    margin-top: 1.5rem;
+    font-weight: var(--light);
+}

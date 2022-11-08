@@ -1,9 +1,9 @@
 .formContainer{
     display:flex;
     width: 100%;
-    margin-right: 0;
-    justify-content:space-between;
+     justify-content:space-between; 
     position: relative;
+    flex-wrap: wrap;
     
 }
 .formContainer img{
@@ -17,15 +17,16 @@
     padding:0 6rem;
     flex-direction: column;
     width: 100%;
-    margin-top: 7rem;
-    
+     margin-top: 7rem;
+     flex-wrap: wrap;
+     
 }
  form h2{
     position: absolute;
     z-index:1;
     top: 0;
     left: 0;
-    margin-top: 2rem;
+    margin-top: 2rem; 
     color:var(--primary);
     padding:0 6rem;
 }
@@ -107,6 +108,7 @@ textarea::placeholder{
     display: flex;
     width:100% ;
     padding:0 6rem;
+    flex-wrap: wrap;
 
 }
 .row{
@@ -151,3 +153,4 @@ textarea::placeholder{
     font-size: 1.2rem;
     margin-bottom:1rem;
 }
+

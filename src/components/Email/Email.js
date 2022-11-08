@@ -47,20 +47,48 @@ const Email = () => {
       <div className={Classes.overlay}></div>
       <form ref={form} onSubmit={sendEmail}>
         <h2>We're Here To Help!</h2>
+        
         <div className={Classes.formInnerContainer}>
           <div>
-        <input className={Classes.emailInput} placeholder="text"  name="firstName" />
+            <input
+              className={Classes.emailInput}
+              type="text"
+              placeholder="First Name"
+              name="firstName"
+              required
+            />
 
-            <input className={Classes.emailInput} type="text" placeholder="Company Name" name="companyName" />
+            <input
+              className={Classes.emailInput}
+              type="text"
+              placeholder="Company Name"
+              name="companyName"
+            />
           </div>
           <div>
-            <input className={Classes.emailInput} type="email" placeholder="Email Address" name="email" />
+            <input
+              className={Classes.emailInput}
+              type="email"
+              placeholder="Email Address"
+              name="email"
+              required
+            />
 
-            <input  className={Classes.emailInput} type="number" placeholder="Phone Number" name="phone" />
+            <input
+              className={Classes.emailInput}
+              type="number"
+              placeholder="Phone Number"
+              name="phone"
+              required
+            />
           </div>
         </div>
         <div>
-          <textarea name="message" placeholder="What can we do for you?" />
+          <textarea
+            name="message"
+            placeholder="What can we do for you?"
+            required
+          />
         </div>
         <div className={Classes.btnContainer}>
           <button className={Classes.btn}>
@@ -72,19 +100,20 @@ const Email = () => {
       <div className={Classes.emailAddress}>
         <div className={Classes.call}>
           <div className={Classes.icons}>
-          <FaPhoneAlt className={Classes.phone}/>
-          <h3>Call Us</h3>
+            <FaPhoneAlt className={Classes.phone} />
+            <h3>Call Us</h3>
           </div>
           <p>1-855-979-TASK</p>
           <p>(972) 449-5462</p>
         </div>
         <div className={Classes.emailContainar}>
           <div className={Classes.icons}>
-          <TfiEmail className={Classes.Email}/>
-          <h3>Email</h3>
+            <TfiEmail className={Classes.Email} />
+            <h3>Email</h3>
           </div>
           <p>info@parahack.com</p>
         </div>
+        
       </div>
     </div>
   );

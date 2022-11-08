@@ -41,9 +41,11 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
+      <Link to="/contact">
       <ButtonsItem
       text={"Get Started"}
       />
+      </Link>
       <div className={Classes.hamburger} onClick={handleNav}>
         {!nav ? (
           <HiOutlineMenuAlt4 className={Classes.Icons} />

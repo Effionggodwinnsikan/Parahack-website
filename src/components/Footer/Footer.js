@@ -1,7 +1,6 @@
 import React from "react";
 import Classes from "./Footer.module.css";
 import { Link } from "react-router-dom";
-import { BiStar } from "react-icons/bi";
 import { AiFillGitlab } from "react-icons/ai";
 import { GrLinkedinOption } from "react-icons/gr";
 import { FaInstagram, FaTwitter, FaFacebookF, FaDribbble } from "react-icons/fa";
@@ -88,15 +87,7 @@ const Footer = () => {
           <p>Copyright © ParaHack, LLC 2022 | All Rights Reserved</p>
           <p>Privacy Policy | Terms of Service</p>
         </div>
-        <div >
-          <BiStar />
-          <BiStar />
-          <BiStar />
-          <BiStar />
-          <div>
-            <p>4Reviews</p>
-          </div>
-        </div>
+        
         <div className={Classes.iconContainer}>
           <FaFacebookF className={Classes.icon} />
           <FaTwitter className={Classes.icon} />

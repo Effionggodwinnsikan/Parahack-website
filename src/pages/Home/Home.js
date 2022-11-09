@@ -16,7 +16,7 @@ const Home = () => {
       />
       <OurServices/>
       <SolutionPartner/>
-      <Email/>
+       <Email/> 
     </div>
   )
 }

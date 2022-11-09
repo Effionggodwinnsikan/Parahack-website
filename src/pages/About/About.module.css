@@ -1,0 +1,121 @@
+.container{
+    display:flex;
+    padding:6rem;
+    justify-content:space-between;
+    
+
+}
+
+.WhoWeAre h2{
+    margin-bottom:2rem;
+    
+    }
+    .WhoWeAre p{
+    margin-bottom:2rem;
+    padding-right: 2rem;
+    line-height: 2.2rem;
+} 
+.Cardcontainer{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:2rem;
+    
+}
+.Card h3{
+    color:#fff;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+.Card p{
+    color:#fff;
+    font-size: 1rem;
+}
+.Card1 h3{
+    color:orchid;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+.Card1 p{
+    color:orchid;
+    font-size: 1rem;
+}
+.Card2 h3{
+    color:rgb(22, 171, 231);
+    margin-bottom: 1.8rem;
+    font-size: 1.8rem;
+}
+.Card2 p{
+    color:rgb(22, 171, 231);
+    font-size: 1rem;
+}
+.Card3 h3{
+    color:#fff;
+    margin-bottom: 1.8rem;
+    font-size: 1.8rem;
+}
+.Card3 p{
+    color:#fff;
+    font-size: 1rem;
+}
+.Card{
+    background-color:orangered;
+    padding: 1.5rem 7.2rem;
+    gap:2rem;
+    border-radius: 20px;
+    
+}
+.Card1{
+    background-color:rgb(221, 156, 221);
+    padding: 1.5rem 7.2rem;
+    gap:2rem;
+    border-radius: 20px;
+}
+.Card2{
+    background-color:skyblue;
+    padding: 1.5rem 7.2rem;
+    gap:2rem;
+    border-radius: 20px;
+}
+.Card3{
+    background-color:navy;
+    padding:1.5rem 7.2rem; ;
+    gap:2rem;
+    border-radius: 20px;
+}
+.icon{
+    font-size:4rem;
+    color:blue;
+    margin-bottom: 1rem;
+}
+.icon1{
+    font-size:4rem;
+    color:orangered;
+    margin-bottom: 1rem;
+}
+.icon2{
+    font-size:4rem;
+    color:orange;
+    margin-bottom: 1rem;
+}
+.icon3{
+    font-size:4rem;
+    color:orange;
+    margin-bottom: 1rem;
+}
+.belief{
+    display: flex;
+    background-color:#f8f8f8!important; 
+    padding: 3rem 6rem;
+
+}
+.belief p{
+    padding-bottom:2rem ;
+    line-height: 2.2rem;
+}
+.belief h2{
+    padding-bottom: 3rem;
+}
+.belief1{
+    padding-right:5rem ;
+   
+}

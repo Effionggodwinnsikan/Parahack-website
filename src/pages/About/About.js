@@ -2,12 +2,13 @@ import React from "react";
 import HeroTemplate from "../../components/HeroTemplate/HeroTemplate";
 import Images from "../../assets/Images/about  image.jfif";
 import { GoFileDirectory } from "react-icons/go";
-import { FaGlobeAmericas,FaQuoteLeft } from "react-icons/fa";
+import { FaGlobeAmericas, FaQuoteLeft } from "react-icons/fa";
 import { AiFillTrophy } from "react-icons/ai";
 import { CgProfile } from "react-icons/cg";
 import Classes from "./About.module.css";
 import Image from "../../assets/Images/female-testimony.svg";
-
+import OurLocation from "../../components/OurLocation/OurLocation";
+import Carousel from "../../components/Carousel/Carousel";
 
 const About = () => {
   return (
@@ -59,19 +60,33 @@ const About = () => {
           </p>
         </div>
         <div>
-          <FaQuoteLeft/>
+          <FaQuoteLeft />
           <p>
             A lot of startups and established enterprises are continuously
             innovating because of the partnership with us. We are proud to be a
             part of this journey, and our client’s success means our success.
           </p>
           <div>
-            <img src={Image} alt=""/>
+            <img src={Image} alt="" />
             <h3>Shah Tashfiq</h3>
             <p>CEO / Founder, HeavyTask LLC</p>
           </div>
         </div>
       </div>
+      <div className={Classes.speciality}>
+        <div>
+          <h2>Our Speciality</h2>
+          <p>
+            We allow your partners to focus on their business, and we handle the
+            heavy lifting of constant innovation, design, and development using
+            the latest technology stacks.
+          </p>
+        </div>
+       <div className={Classes.speciality1}>
+        <Carousel />
+        </div>
+      </div>
+      <OurLocation />
     </div>
   );
 };

@@ -1,0 +1,11 @@
+.OurLocation{
+    display:flex;
+    padding: 6rem;
+}
+.OurLocation h2{
+padding-bottom: 3rem;
+}
+.OurLocation p{
+line-height:2.2rem ;
+padding-right:3rem ;
+}

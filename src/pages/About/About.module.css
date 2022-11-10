@@ -119,3 +119,19 @@
     padding-right:5rem ;
    
 }
+.speciality1{
+  position: relative;
+  width: 65%;
+  padding:1rem 6rem 1rem 6rem ;
+}
+.speciality p{
+    line-height:2.2rem ;
+   
+    }
+    .speciality{
+    display :flex;
+    padding: 6rem 6rem 0 6rem;
+    }
+    .speciality h2{
+        padding-bottom:2rem;
+    }

@@ -21,11 +21,11 @@ const SolutionPartner = () => {
           <p>
             We create solutions for complex issues and challenges that business
             enterprises encounter daily. Our innovative team consists of
-            pioneers in developing{" "}
-            <span>
-              {" "}
+            pioneers in developing{""}
+          
+              <span>
               custom software, mobile applications, website development
-            </span>{" "}
+              </span>{""}
             and diverse digital products.
           </p>
           <h3>Industry We Support</h3>
@@ -33,39 +33,39 @@ const SolutionPartner = () => {
         <div className={Classes.navContainer} onClick={handleNav}>
           {img === Classes.active ? <li id="#" /> : null}
           <div className={ Classes.solutionLi}>
-            <Link id="/software">
+            <Link >
             <li >
-              <span>Software</span>
+              Software
             </li>
             </Link>
-            <Link id="/start-ups">
+            <Link >
             <li >
-              <span>Start-ups</span>
+              Start-ups
             </li>
             </Link>
             <Link id="/legal">
             <li >
-              <span>Legal</span>
+              Legal
             </li>
             </Link>
             <Link id="/healthcare">
             <li >
-              <span>HealthCare</span>
+              HealthCare
             </li>
             </Link>
             <Link id="/manufacturing">
             <li >
-              <span>Manufacturing</span>
+              Manufacturing
             </li>
             </Link>
             <Link id="/insurance">
             <li >
-              <span>Insurance</span>
+              Insurance
             </li>
             </Link>
             <Link id="/contact">
             <li >
-              <span>Contractor</span>
+              Contractor
             </li>
             </Link>
           </div>

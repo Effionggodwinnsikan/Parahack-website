@@ -47,6 +47,9 @@ position: relative;
     position: absolute;
     top: 50%;
     left: 4%;
+    border:none !important;
+    outline: none !important;
+
 }
 .content:hover{
     box-shadow:   0px 10px 60px rgba(38, 45, 118, 0.09);

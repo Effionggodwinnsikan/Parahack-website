@@ -78,7 +78,7 @@ form{
     margin-top: 4rem;
     color:var(--primary);
 }
-textarea{
+.textarea1 textarea {
     padding: 3rem 6rem;
     font-family: var(--primary);
     margin:2rem 0 2rem 6rem;
@@ -92,11 +92,11 @@ textarea{
    
     
     
-}
-textarea::placeholder{
+} 
+ .textarea1 textarea::placeholder{
     color:#fff;
     font-weight: var(--light);
-}
+} 
 .btn{
     border: none;
     padding: 1rem 2rem;

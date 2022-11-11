@@ -14,32 +14,28 @@ const Footer = () => {
 
           <Link to="/software">
             <li>
-              <a>SOFTWARE DEVELOPMENT</a>
+              SOFTWARE DEVELOPMENT
             </li>
           </Link>
           <Link to="/mobile">
             <li>
-              <a>MOBILE DEVELOPMENT </a>
+              MOBILE DEVELOPMENT 
             </li>
           </Link>
           <Link to="/staff">
             <li>
-              <a>STAFF AUGMENTATION </a>
+              STAFF AUGMENTATION 
             </li>
           </Link>
           <Link to="/cloud">
             <li>
-              <a>CLOUD SOLUTIONS </a>
+              CLOUD SOLUTIONS 
             </li>
           </Link>
-          <Link to="/">
-            <li>
-              <a>BUSINESS INTELLIGENCE </a>
-            </li>
-          </Link>
+          
           <Link to="/software">
             <li>
-              <a>WEB DEVELOPMENT </a>
+              WEB DEVELOPMENT 
             </li>
           </Link>
         </div>
@@ -49,22 +45,14 @@ const Footer = () => {
           <Link to="/about">
             {" "}
             <li>
-              <a>ABOUT US</a>
+              ABOUT US
             </li>
           </Link>
+          
+          
           <Link to="/">
             <li>
-              <a>CASE STUDIES</a>
-            </li>
-          </Link>
-          <Link to="/">
-            <li>
-              <a>PRESS</a>
-            </li>
-          </Link>
-          <Link to="/">
-            <li>
-              <a> BLOG</a>
+               BLOG
             </li>
           </Link>
         </div>

@@ -1,0 +1,15 @@
+textarea{
+    padding: 3rem 6rem;
+    font-family: var(--primary);
+    margin:2rem 0 2rem 6rem;
+    background-color: transparent !important;
+    color: #fff;
+    font-size:1rem;
+    border:none;
+    border-bottom: 3px solid var(--primary);
+    width: 83%;
+    padding: 5rem 15rem 0.5rem 0.5rem;
+   
+    
+    
+}

@@ -1,16 +1,13 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import Classes from "./Email.module.css";
-import Image from "../../assets/Images/Content-Relationships-1.jpg";
-import { FaPhoneAlt } from "react-icons/fa";
-import { TfiEmail } from "react-icons/tfi";
+import Classes from "./ContactInput.module.css";
 
 const Result = () => {
   return (
     <p>Your message has been successfully sent.We will contact you soon.</p>
   );
 };
-const Email = () => {
+const ContactInput = () => {
   const [result, showResult] = useState(false, true);
   const form = useRef();
 
@@ -43,11 +40,12 @@ const Email = () => {
 
   return (
     <div className={Classes.formContainer}>
-      <img src={Image} alt="/" />
-      <div className={Classes.overlay}></div>
       <form ref={form} onSubmit={sendEmail}>
-        <h2>We're Here To Help!</h2>
-        
+        <p>
+          Tell us about your project and we will contact you within a business
+          day. All submitted information will be kept confidential.
+        </p>
+
         <div className={Classes.formInnerContainer}>
           <div>
             <input
@@ -85,7 +83,7 @@ const Email = () => {
         </div>
         <div className={Classes.textarea1}>
           <textarea
-          className={Classes.textarea}
+            className={Classes.textarea}
             name="message"
             placeholder="What can we do for you?"
             required
@@ -98,24 +96,9 @@ const Email = () => {
         </div>
         <div className={Classes.row}>{result ? <Result /> : null}</div>
       </form>
-      <div className={Classes.emailAddress}>
-        <div className={Classes.call}>
-          <div className={Classes.icons}>
-            <FaPhoneAlt className={Classes.phone} />
-            <h3>Call Us</h3>
-          </div>
-          <p>1-855-979-TASK</p>
-          <p>(972) 449-5462</p>
-        </div>
-        <div className={Classes.emailContainar}>
-          <div className={Classes.icons}>
-            <TfiEmail className={Classes.Email} />
-            <h3>Email</h3>
-          </div>
-          <p>info@parahack.com</p>
-        </div>
-      </div>
-      </div>
+      
+      
+    </div>
   );
 };
-export default Email;
+export default ContactInput;

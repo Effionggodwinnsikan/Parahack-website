@@ -10,7 +10,7 @@
 }
 .solutionLi li{
 list-style-type: none;
-
+text-decoration-color:none ;
 margin-top: 1.5rem;
 font-weight: var(--light);
 }
@@ -18,12 +18,13 @@ font-weight: var(--light);
     overflow-y:scroll;
     height:30vh;
     width: 50%;
+    text-decoration-color:none ;
 }
 .active li{
     border-bottom: 3px solid var(--primary);
     padding-bottom:1rem;
     list-style-type: none;
-
+    text-decoration-color:none ;
     margin-top: 1.5rem;
     font-weight: var(--light);
 }
@@ -32,12 +33,10 @@ font-weight: var(--light);
 }
 .partner h3{
     padding-top:1rem;
-    color: var(--secondary);
     font-weight: var(--light)
 }
 .partner h2{
     padding-top:1rem;
-    color: var(--secondary);
     font-weight: var(--light)
 }
 .partner span{

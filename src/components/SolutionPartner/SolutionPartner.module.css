@@ -5,19 +5,19 @@
 }
 .solution{
     display:flex;
-    padding: 6rem;
+    padding:2rem 6rem;
     width: 100%;
 }
 .solutionLi li{
 list-style-type: none;
-text-decoration-color:none ;
+color:var(--secondary) ;
 margin-top: 1.5rem;
 font-weight: var(--light);
 }
 .solutionLi{
     overflow-y:scroll;
     height:30vh;
-    width: 50%;
+    width: 60%;
     text-decoration-color:none ;
 }
 .active li{
@@ -31,12 +31,15 @@ font-weight: var(--light);
 .partner{
     width: 68%;
 }
+.partner p{
+    line-height:1.5rem ;
+}
 .partner h3{
     padding-top:1rem;
     font-weight: var(--light)
 }
 .partner h2{
-    padding-top:1rem;
+    padding:1rem 0 1rem 0;
     font-weight: var(--light)
 }
 .partner span{

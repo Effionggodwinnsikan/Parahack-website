@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Classes from "./SolutionPartner.module.css";
-import Image from "../../assets/Images/fe-vs-be.jpg";
+import Image from "../../assets/Images/developer fixing bug.jpg";
 import Image1 from "../../assets/Images/fem dev.jpg";
 import Image2 from "../../assets/Images/fe-vs-be.jpg";
 import Image3 from "../../assets/Images/fe-vs-be.jpg";

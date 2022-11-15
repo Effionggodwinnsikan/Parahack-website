@@ -33,27 +33,27 @@ const Workforce = () => {
             partners quickly augment teams.
           </p>
         </div>
-        <div>
-          <div>
-            <img src={Image} alt="/" className={Classes.logo} />
-            <img src={Image1} alt="/" className={Classes.logo} />
-            <img src={Image3} alt="/" className={Classes.logo} />
-            <img src={Image6} alt="/" className={Classes.logo} />
-            <img src={Image9} alt="/" className={Classes.logo} />
+        <div  className={Classes.logoContainer}>
+          <div className={Classes.logo}>
+            <img src={Image} alt="/"  />
+            <img src={Image1} alt="/"  />
+            <img src={Image3} alt="/"  />
+            <img src={Image6} alt="/"  />
+            <img src={Image9} alt="/"  />
           </div>
-          <div>
-            <img src={Image2} alt="/" className={Classes.logo} />
-            <img src={Image4} alt="/" className={Classes.logo} />
-            <img src={Image8} alt="/" className={Classes.logo} />
-            <img src={Image10} alt="/" className={Classes.logo} />
-            <img src={Image12} alt="/" className={Classes.logo} />
+          <div className={Classes.logo}>
+            <img src={Image2} alt="/"  />
+            <img src={Image4} alt="/"  />
+            <img src={Image8} alt="/"  />
+            <img src={Image10} alt="/"  />
+            <img src={Image12} alt="/"  />
           </div>
-          <div>
-            <img src={Image14} alt="/" className={Classes.logo} />
-            <img src={Image13} alt="/" className={Classes.logo} />
-            <img src={Image5} alt="/" className={Classes.logo} />
-            <img src={Image7} alt="/" className={Classes.logo} />
-            <img src={Image11} alt="/" className={Classes.logo} />
+          <div className={Classes.logo}>
+            <img src={Image14} alt="/"  />
+            <img src={Image13} alt="/"  />
+            <img src={Image5} alt="/"  />
+            <img src={Image7} alt="/"  />
+            <img src={Image11} alt="/"  />
           </div>
         </div>
       </div>

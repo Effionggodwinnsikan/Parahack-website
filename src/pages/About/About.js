@@ -66,10 +66,10 @@ const About = () => {
             innovating because of the partnership with us. We are proud to be a
             part of this journey, and our client’s success means our success.
           </p>
-          <div>
+          <div className={Classes.CEO}>
             <img src={Image} alt="" />
             <h3>Shah Tashfiq</h3>
-            <p>CEO / Founder, HeavyTask LLC</p>
+            <p>CEO / Founder, ParaHack LLC</p>
           </div>
         </div>
       </div>

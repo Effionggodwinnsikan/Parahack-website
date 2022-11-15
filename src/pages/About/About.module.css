@@ -119,6 +119,10 @@
     padding-right:5rem ;
    
 }
+.CEO img{
+    width: 20%;
+   
+}
 .speciality1{
   position: relative;
   width: 65%;
@@ -134,4 +138,181 @@
     }
     .speciality h2{
         padding-bottom:2rem;
+    }
+    @media (max-width:1024px){
+        .container{
+            padding:4rem;
+            justify-content:space-between;
+            
+        
+        }
+        .Cardcontainer{
+            grid-gap:1rem;
+            
+        }
+        .Card{
+            
+            padding: 1rem 4.2rem;
+            
+            
+        }
+        .Card1{
+            
+            padding: 1rem 4.2rem;
+            
+            
+        }
+        .Card2{
+            
+            padding: 1rem 4.2rem;
+            
+            
+        }
+        .Card3{
+            
+            padding: 1rem 4.2rem;
+            
+            
+        }
+    }
+    @media (max-width:888px){
+        .container{
+           flex-direction:column-reverse ;
+            
+        
+        }
+        .Cardcontainer{
+            padding-bottom: 1rem;
+           
+            
+        }
+        .belief{
+            flex-direction:column;
+        }
+        .speciality{
+            flex-direction: column;
+            padding: 3rem 3rem 0 3rem;
+            }
+            .speciality p{
+                line-height:2rem ;
+                text-align: center;
+               
+                }
+                .speciality h2{
+                    padding-bottom:1rem;
+                    text-align: center;
+                }
+                .speciality1{
+                    position: relative;
+                    width: 100%;
+                    padding:1rem 3rem 1rem 3rem ;
+                  }
+    }
+    @media (max-width:666px){
+       
+        .Card{
+            
+            padding: 1rem 4.2rem;
+            
+            
+        }
+        .Card1{
+            
+            padding: 1rem 4.2rem;
+            
+            
+        }
+        .Card2{
+            
+            padding: 1rem 4.2rem;
+            
+            
+        }
+        .Card3{
+            
+            padding: 1rem 4.2rem;
+            
+            
+        }
+        .belief{
+            padding: 1rem 3rem;
+        }
+        .belief p{
+            padding-bottom:1rem ;
+            line-height: 2rem;
+            text-align: center;
+        }
+        .belief h2{
+            padding-bottom: 1.5rem;
+            text-align:center;
+        }
+        .belief h3{
+            padding-bottom: .5rem;
+            text-align:center;
+        }
+        .belief1{
+            padding-right:0 ;
+           
+        }
+        .CEO{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+        }
+        .CEO img{
+           margin:auto ;
+          
+           
+        }
+
+    }
+    @media (max-width:564px){
+        .Cardcontainer{
+        
+            grid-template-columns: 1fr;
+           
+            
+        }
+        .Card{
+            
+            padding: .8rem 4rem;
+            
+            
+        }
+        .Card1{
+            
+            padding: .8rem 4rem;
+            
+            
+        }
+        .Card2{
+            
+            padding: .8rem 4rem;
+            
+            
+        }
+        .Card3{
+            
+            padding: .8rem 4rem;
+            
+            
+        }
+        .WhoWeAre p{
+            display:flex;
+            text-align: center;
+            padding-right: 0;
+        }
+        .WhoWeAre h2{
+            display:flex;
+            justify-content: center;
+            padding-right: 0;
+            margin-bottom: .5rem;
+        }
+        .WhoWeAre button{
+          margin: auto;
+          justify-content: center;
+          display:flex;
+            
+        }
     }

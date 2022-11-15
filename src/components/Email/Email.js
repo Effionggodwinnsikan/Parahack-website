@@ -65,7 +65,7 @@ const Email = () => {
               name="companyName"
             />
           </div>
-          <div>
+          <div className={Classes.newsletter}>
             <input
               className={Classes.emailInput}
               type="email"

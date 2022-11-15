@@ -15,7 +15,7 @@ const SolutionPartner = () => {
   const handleNav = () => showImg(!img);
   return (
     <div className={Classes.solution}>
-      <div>
+      <div className={Classes.solutionContainer}>
         <div className={Classes.partner}>
           <h2>Solutions Partner</h2>
           <p>

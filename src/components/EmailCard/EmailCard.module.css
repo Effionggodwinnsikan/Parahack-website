@@ -45,3 +45,19 @@ gap:2rem;
     font-size:5rem;
     color:gray;  
 }
+@media (max-width: 980px){
+  .emailAddress{
+    flex-direction:column;
+    padding:1rem 3rem;
+    overflow-x: hidden;
+  }
+  .emailContainar{  
+    padding: 6rem 4rem ;
+ 
+}
+.call{
+  padding: 6rem 4rem ;
+ 
+  
+}
+}

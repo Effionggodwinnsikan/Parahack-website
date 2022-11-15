@@ -7,7 +7,7 @@ import EmailCard from "../../components/EmailCard/EmailCard";
 
 const Contact = () => {
   return (
-    <div>
+    <div className={Classes.Contact}>
       <ContactUsHero
         bgImg={Image}
         text="HOW CAN WE HELP"

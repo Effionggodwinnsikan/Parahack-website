@@ -14,7 +14,7 @@ const OurLocation = () => {
           pool’s power, resulting in exceptional products and services.
         </p>
       </div>
-      <div>
+      <div >
         <img src={Images} alt="map" />
       </div>
     </div>

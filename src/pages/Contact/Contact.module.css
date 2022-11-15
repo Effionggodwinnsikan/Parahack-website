@@ -13,3 +13,8 @@ textarea{
     
     
 }
+@media (max-width: 980px){
+    .Contact{
+        overflow-x: hidden;
+    }
+}

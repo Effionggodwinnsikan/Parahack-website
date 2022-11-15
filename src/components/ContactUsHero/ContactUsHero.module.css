@@ -50,3 +50,19 @@
    font-size: 5rem;
    
 }
+@media (max-width:768px){
+    .content p{
+        font-size:1.9rem;
+    }
+    .content h1{
+        font-size:2.5rem;
+    }
+}
+@media (max-width:425px){
+    .content p{
+        font-size:1.5rem;
+    }
+    .content h1{
+        font-size:2rem;
+    }
+}

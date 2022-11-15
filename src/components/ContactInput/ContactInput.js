@@ -41,10 +41,10 @@ const ContactInput = () => {
   return (
     <div className={Classes.formContainer}>
       <form ref={form} onSubmit={sendEmail}>
-        <p>
+        <h4>
           Tell us about your project and we will contact you within a business
           day. All submitted information will be kept confidential.
-        </p>
+        </h4>
 
         <div className={Classes.formInnerContainer}>
           <div>

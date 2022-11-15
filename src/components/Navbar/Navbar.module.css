@@ -247,6 +247,9 @@ li :hover{
     width: 100%;
     height: 100%;
 }
+.navButton{
+    display:none;
+}
 
 @media (max-width: 940px){
     .mobileMenu{
@@ -285,6 +288,7 @@ li :hover{
         text-align: center;
         padding:1rem 0;
     }
+
     .active li{
         padding:1.2rem 1rem;
         margin:0 1rem;
@@ -319,7 +323,9 @@ li :hover{
         display:none;
         text-decoration: none;
     }
-    
+    .navButton{
+        display:none;
+    }
  
  
 }

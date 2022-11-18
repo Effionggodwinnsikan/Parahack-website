@@ -4,7 +4,7 @@
      justify-content:space-between; 
     position: relative;
     flex-wrap: wrap;
-    
+    height: 85vh;
 }
 .formContainer img{
     width: 100%;
@@ -165,7 +165,24 @@ form{
         
         
     }
+    .formContainer{
+        height:90vh;
+        
+      }
+      .formInnerContainer{
+        padding:0 3rem;
+        
+         
+    }
+    .textarea1 textarea {
+        padding: 0 3rem;
+        /* margin:2rem 0 .5rem 5rem; */
+        width: 80%;
+        padding: 1rem 10rem 0.5rem 0.5rem;   
+    }
 }
+      
+
 @media (max-width:980px){
     .emailInput{
         padding-top:1rem ;
@@ -174,6 +191,11 @@ form{
         font-size:.8rem;
         
         
+        
+    }
+    .formContainer img{
+        width: 100vw;
+        height: 100vh;
         
     }
     .emailContainar{
@@ -206,14 +228,14 @@ form{
 }
 @media(max-width:906px){ 
     .formContainer{
-       display:block;
+      flex-direction: column;
        justify-content:center;
        width:100% ;
       
     }
     .formInnerContainer{
         padding:0 4rem;
-         margin-top: 2rem;
+         /* margin-top: 2rem; */
         
          
     }
@@ -254,29 +276,31 @@ form{
     .emailAddress{
         top: 70%;
         padding: 0 2rem;
+       
     }
     .formContainer{
          justify-content:center; 
-         width: 100%;
+         width: 100vw;
          padding: 0 2rem;
+         height:100vh;
     }
     .call p{
         margin-left: 0;
         color:white;
         font-size: 1rem;
-        margin-bottom:0;
+        margin-bottom:1rem;
         
     }
     .btn{
         border: none;
-        padding: 1rem .2rem;
+        padding: 1rem ;
         cursor: pointer;
         border-radius:20px ;
     }
     .btnContainer{
         align-items: center;
         display: flex;
-        width:50% ;
+        width:80% ;
         padding:0 4rem;
         flex-wrap: wrap;
     
@@ -284,7 +308,52 @@ form{
     form h2{
         font-size:1.2rem; 
     }
+   
     .formContainer{
         overflow-x: hidden;
+    }
+    .formContainer img{
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+        z-index:-1;
+    }
+}
+@media (max-width: 375px){
+    .emailAddress{
+        
+        margin-top: 1rem;
+       
+    }
+    .call p{
+        font-size: 1rem;
+        margin-bottom:0;
+    }
+    .emailContainar p{
+        font-size: 1rem;
+        margin-bottom:0;
+    }
+    .emailAddress{
+        margin-top:0;
+    }
+    .emailAddress{
+        top: 65%;
+        padding: 0 2rem;
+        flex-direction: column;
+        align-items:center;
+    }
+    .formContainer{
+        flex-direction: column;
+         justify-content:center;
+         align-items: center;
+         width:100% ;
+         margin-left: 0;
+        
+      }
+      .formContainer img{
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+        z-index:-1;
     }
 }

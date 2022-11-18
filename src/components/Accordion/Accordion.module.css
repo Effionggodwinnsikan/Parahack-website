@@ -1,0 +1,57 @@
+.Accordion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+    
+}
+.AccordionContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #fbf9f9;
+    margin: 0 6rem .9rem 6rem; 
+   
+}
+.AccordionHeader{
+    display: flex;
+    justify-content:space-between;
+   padding:.9rem 2rem;
+    
+}
+.AccordionSign{
+    cursor:pointer;
+}
+.AccordionAnswer{
+    opacity: 0;
+    height:0;
+    display:flex;
+    overflow:hidden;
+    transition:all 600ms ease-in-out;
+    padding:.9rem 2rem;
+    
+}
+.AccordionAnswer .show{
+    opacity: 1;
+    height:8rem;
+    display:flex;
+     
+}
+.AccordionSign span{
+    font-size:2rem;
+    background-color:black;
+    border-radius: 100%;
+}
+.AccordionContainer p{
+    padding:.9rem 2rem; 
+    background-color:#fbf9f9;
+}
+
+@media (max-width: 768px){
+    .AccordionContainer{
+        
+        margin: 0 3rem .9rem 3rem; 
+       
+    }
+}

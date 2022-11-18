@@ -1,0 +1,103 @@
+.StaffAugmentation1{
+    position:relative
+}
+.btn{
+    position:absolute;
+    top:70%;
+    left:45%;
+    z-index: 1;
+}
+.CloudComputing{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+.CloudComputing h2{
+    font-size:2.5rem;
+    padding: 2rem 0;
+    text-align: center;
+    padding:2rem 6rem;
+}
+.CloudComputing p{
+    line-height:2.2rem ;
+    padding:0 6rem;
+}
+.empty{
+    background-color:#999;
+    border:1px solid #555;
+    width:5%;
+    height:9%;
+    padding: 1rem;
+    border-radius:50% ;
+    margin-right: 1rem;
+}
+.Recruitment{
+    width:100% ;
+    padding:2rem 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center ;
+    
+
+}
+.Recruitment h3{
+    padding-bottom: 1rem;
+}
+.Recruitment p{
+    padding-bottom: 1rem;
+    line-height: 2.2rem;
+     
+}
+.Recruitment h2{
+    text-align: center;
+    padding-bottom: 1.9rem;
+}
+.RecruitmentProcesses{
+    display:flex;
+    justify-content:center;
+    align-items:center ;
+    width: 60%;
+}
+.AccordionHeading{
+    display:flex;
+    padding:2rem 6rem;
+    flex-direction:flex-start ;
+    
+}
+.AccordionHeading h1 {
+    
+    justify-content:flex-start;
+    font-size:3.5rem;
+    display: flex;
+    width: 100%;
+
+   
+}
+@media (max-width: 980px){
+    .btn{
+        top:85%;
+        left:40%;
+    }
+    .Recruitment{
+        padding:1rem 3rem;
+    }
+    .RecruitmentProcesses{
+        width:100% ;
+    }
+    .AccordionHeading h1{
+        text-align: center;
+        font-size:2.5rem;
+    }
+}
+@media (max-width: 568px){
+    .btn{
+        top: 80%;
+        left:30%;
+    }
+    .AccordionHeading h1 {
+        
+        text-align: center;;
+        font-size:1.5rem;
+    }
+}

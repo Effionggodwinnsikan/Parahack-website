@@ -17,7 +17,7 @@ import Image14 from "../../assets/Images/html.png";
 import Images15 from "../../assets/Images/map.webp";
 import Classes from "./WorkForce.module.css";
 
-const Workforce = () => {
+const Workforce = ({}) => {
   return (
     <div className={Classes.workforce}>
       <div className={Classes.OurLocation}>

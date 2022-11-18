@@ -9,3 +9,20 @@
     background-color:var(--secondary) ;
     
 }
+@media (max-width:568px){
+    .nav_btn{
+       
+        padding:.8rem 1rem;
+        border-radius: 10px;
+        
+    }
+}
+@media (max-width:425px){
+    .nav_btn{
+       
+        padding:.5rem .8rem;
+        border-radius: 5px;
+        font-size:.5rem ;
+        
+    }
+}

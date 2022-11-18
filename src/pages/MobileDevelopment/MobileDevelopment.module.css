@@ -1,0 +1,113 @@
+.MobileDevelopmentContainer{
+    position:relative
+}
+.btn{
+    position:absolute;
+    top:70%;
+    left:45%;
+    z-index: 1;
+}
+.MobileDevelopmentContainer1{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+.MobileDevelopmentContainer1 h2{
+    font-size:2.5rem;
+    padding: 2rem 0;
+    text-align: center;
+    padding:2rem 6rem;
+}
+.MobileDevelopmentContainer1 p{
+    line-height:2.2rem ;
+    padding:0 6rem;
+}
+.MobileDevelopmentContainer1 span{
+    color:var(--secondary);
+    cursor: pointer;
+}
+.MobileAnalyticsContainer{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+.MobileAnalyticsContainer h2{
+    font-size:2.5rem;
+    padding: 2rem 0;
+    text-align: center;
+    padding:2rem 6rem;
+}
+.MobileAnalyticsContainer p{
+    line-height:2.2rem ;
+    padding:0 6rem;
+}
+.mobileDev{
+    width:100%;
+    display:flex;
+    justify-content:space-evenly;
+}
+.icons{
+    font-size:5rem;
+    color:var(--secondary);
+    align-items:center;
+    width: 100%;
+}
+.mobile{
+    background-color:white;
+    box-shadow:0px 10px 60px rgba(38, 45, 118, 0.09);
+    padding: 1.8rem;
+
+}
+.mobile p{
+    color:var(--secondary);
+    font-weight: var(--light);
+    padding: 0.5rem 0;
+}
+.mobile :hover{
+    transform:scale(1.5);
+   transition: 0.3s;
+}
+
+@media (max-width: 980px){
+    .btn{
+        top:85%;
+        left:40%;
+    }
+    .mobileDev{
+        flex-direction:column;
+        padding: 2rem 3rem;
+    }
+    .mobile{
+        
+        margin: .6rem 0;
+    }
+    .mobile p{
+        text-align: center;
+    }
+    .MobileDevelopmentContainer1 h2{
+        font-size:2rem;
+       
+        padding:2rem 3rem;
+    }
+    .MobileDevelopmentContainer1 p{
+        line-height:2rem ;
+        padding:0 3rem;
+        text-align: center;
+    }
+    .MobileAnalyticsContainer h2{
+        font-size:2rem;
+       
+        padding:2rem 3rem;
+    }
+    .MobileAnalyticsContainer p{
+        line-height:2rem ;
+        padding:0 3rem;
+        text-align: center;
+    }
+}
+@media (max-width: 568px){
+    .btn{
+        top: 80%;
+        left:30%;
+    }
+}

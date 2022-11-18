@@ -13,6 +13,12 @@ textarea{
     
     
 }
+.contact .Email{
+    height: 100vh;
+   
+}
+
+
 @media (max-width: 980px){
     .Contact{
         overflow-x: hidden;

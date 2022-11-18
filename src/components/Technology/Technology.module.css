@@ -1,0 +1,46 @@
+.Technology{
+    width: 100%;
+    padding:2rem 6rem;
+    
+}
+.TechnologyGuideline{
+    display:flex;
+    border-bottom:1px solid #666 ;
+} 
+.TechnologyGuideline h2{
+    width:50%;
+    font-size:2.5rem ;
+} 
+.TechnologyGuideline p{
+    width:50%;
+    line-height:2.22rem;
+}
+.Technology1{
+    display:flex ;
+    padding-top: 2rem;
+}
+.TechnologyGeneral{
+    display:flex ;
+    width: 53%;
+    
+}
+.TechnologyGeneral h3{
+    width:45%;
+    font-size:2rem ;
+}
+.TechnologyGeneral p{
+    width:50%;
+    line-height:2rem;
+}
+.TechnologySpecific{
+    display:flex ;
+    width:47%;
+}
+.TechnologySpecific h3{
+    width:56%;
+    font-size:2rem ;
+}
+.TechnologySpecific p{
+    width:44%;
+    line-height:1.5rem;
+}

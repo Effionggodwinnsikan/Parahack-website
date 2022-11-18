@@ -13,7 +13,7 @@ const Contact = () => {
         text="HOW CAN WE HELP"
         content="We love to hear from our clients. If you have any questions or concerns please reach out."
       />
-      <ContactInput/>
+      <ContactInput />
       <EmailCard/>
     </div>
   );

@@ -11,16 +11,16 @@
     width:100%;
     display: flex;
     flex-direction: column;
+    padding: 4rem 0;
 }
 .MobileDevelopmentContainer1 h2{
     font-size:2.5rem;
-    padding: 2rem 0;
     text-align: center;
-    padding:2rem 6rem;
+    padding:4rem 6rem;
 }
 .MobileDevelopmentContainer1 p{
     line-height:2.2rem ;
-    padding:0 6rem;
+    padding:.5rem 6rem;
 }
 .MobileDevelopmentContainer1 span{
     color:var(--secondary);
@@ -30,6 +30,14 @@
     width:100%;
     display: flex;
     flex-direction: column;
+    padding: 3rem 0;
+}
+.AccordionHeading{
+    display:flex;
+    justify-content:center;
+    align-items:center ;
+    text-align:center;
+    padding:6rem;
 }
 .MobileAnalyticsContainer h2{
     font-size:2.5rem;
@@ -41,11 +49,85 @@
     line-height:2.2rem ;
     padding:0 6rem;
 }
+.MobileHostingContainer{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0;
+}
+.MobileHostingContainer h2{
+    font-size:2.5rem;
+    text-align: center;
+    padding:3rem 6rem;
+}
+.MobileHostingContainer p{
+    line-height:2.2rem ;
+    padding:0 6rem;
+}
+.MobileDesignContainer{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0;
+}
+.MobileDesignContainer h2{
+    font-size:2.5rem;
+    text-align: center;
+    padding:3rem 6rem;
+}
+.MobileDesignContainer p{
+    line-height:2.2rem ;
+    padding:0 6rem;
+}
 .mobileDev{
     width:100%;
     display:flex;
     justify-content:space-evenly;
 }
+.MobileStrategyContainer{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0;
+}
+.MobileStrategyContainer h2{
+    font-size:2.5rem;
+    text-align: center;
+    padding:3rem 6rem;
+}
+.MobileStrategyContainer p{
+    line-height:2.2rem ;
+    padding:0 6rem;
+}
+.mobileDev{
+    width:100%;
+    display:flex;
+    justify-content:space-evenly;
+}
+.mobileCard1{
+   display: flex;
+   
+  padding: 0 !important;
+  margin:3rem 3rem 0 3rem !important;
+ 
+  
+}
+.mobileCard3{
+    display: flex;
+    
+   padding: 0 !important;
+   margin:3rem 3rem 0 3rem !important;
+  
+   
+ }
+.mobileCard2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   padding: 0 !important;
+   margin:3rem 3rem 0 3rem !important;
+  
+   
+ }
 .icons{
     font-size:5rem;
     color:var(--secondary);
@@ -54,7 +136,8 @@
 }
 .mobile{
     background-color:white;
-    box-shadow:0px 10px 60px rgba(38, 45, 118, 0.09);
+    box-shadow:rgba(0,0,0,0.4) 0px 2px 4px, rgba(0,0,0,0.3) 0px 7px 13px -3px, 
+    rgba(0,0,0, 0.2) 0px -3px 0px inset;
     padding: 1.8rem;
 
 }
@@ -67,7 +150,57 @@
     transform:scale(1.5);
    transition: 0.3s;
 }
-
+.client{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    color: #fff;
+}
+.overlay{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    top: 0;
+    left: 0;
+    
+}
+.client img{
+    width: 100%;
+    height: 50vh;
+    object-fit:cover;
+    z-index:-1;
+}
+.content{
+    position: absolute;
+    top:29%;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: auto;
+    padding:1rem;
+    z-index: 1;
+}
+.content p{
+     margin-top:1rem;
+     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+.content h4{
+    margin-bottom:1rem;
+    display: flex;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+   font-size: 2rem;
+   
+}
 @media (max-width: 980px){
     .btn{
         top:85%;
@@ -104,10 +237,112 @@
         padding:0 3rem;
         text-align: center;
     }
+    .mobileCard2{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .mobileCard1{
+       flex-direction: column;
+       justify-content:center;
+       align-items:center ;
+    }
+    .mobileCard3{
+        flex-direction: column;
+        justify-content:center;
+        align-items:center ;
+     }
+     .MobileAnalyticsContainer{
+      justify-content:center;
+      align-items:center ;
+      text-align: center;
+      padding:2rem 4rem;
+     }
+     .MobileDesignContainer{
+        justify-content:center;
+        align-items:center ;
+        text-align: center;
+        padding:0;
+       }
+       .MobileStrategyContainer{
+        justify-content:center;
+        align-items:center ;
+        text-align: center;
+        padding:2rem 4rem;
+       }
+       .MobileHostingContainer{
+        justify-content:center;
+        align-items:center ;
+        text-align: center;
+        padding:0;
+       }
+       .content{
+      top:3%;
+      height: 100vh;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .overlay{
+       
+        height: 100vh;
+       
+        
+    }
+    .client img{
+        height: 100vh;
+    }
+    .client{
+        height: 100vh;
+       
+    }
 }
 @media (max-width: 568px){
     .btn{
         top: 80%;
         left:30%;
     }
+    .AccordionHeading h1{
+       font-size:2rem; 
+        padding: 1rem 3rem;
+    }
+    .mobileCard2{
+        grid-template-columns: repeat(1,1fr);
+        margin: 3rem;
+     
+    }
+    .mobileCard1{
+       padding:2rem ;
+       margin: 3rem;
+    }
+    .mobileCard3{
+        padding:6rem ;
+        margin: 3rem;
+     }
+     .MobileAnalyticsContainer{
+        
+        padding:0;
+       }
+       .MobileDesignContainer h2{
+        
+        padding: 2rem 0 !important;
+       }
+       .MobileDesignContainer p{
+        
+        padding:  0 2rem;
+       }
+       .MobileStrategyContainer p{
+        
+        padding: 0  ;
+       }
+       .MobileStrategyContainer h2{
+        
+        padding: 2rem 0;
+       }
+       .MobileHostingContainer p{
+        line-height:1.5rem ;
+        padding: 2rem 2rem 1rem 2rem ;
+       }
+       .MobileHostingContainer h2{
+        
+        padding: 2rem ;
+       }
 }

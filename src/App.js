@@ -12,12 +12,17 @@ import MobileDevelopment from "./pages/MobileDevelopment/MobileDevelopment";
 import Services from "./pages/Services/Services";
 import SoftwareDevelopment from "./pages/SoftwareDevelopment/SoftwareDevelopment";
 import StaffAugmentation from "./pages/StaffAugmentation/StaffAugmentation";
+import ScrollToTop from "./components/ScrollToApp.js/ScrollToTop";
 const App = () => {
+  
   return (
     <div>
+      <ScrollToTop />
       <Navbar />
       <main>
+
         <Routes>
+        
           <Route exact path="/" element={<Home />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/contact" element={<Contact />} />
@@ -26,6 +31,7 @@ const App = () => {
           <Route exact path="/mobile" element={<MobileDevelopment />} />
           <Route exact path="/cloud" element={<CloudComputing />} />
           <Route exact path="/staff" element={<StaffAugmentation />} />
+         
         </Routes>
       </main>
       <Footer />

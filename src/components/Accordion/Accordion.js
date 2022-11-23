@@ -11,7 +11,7 @@ const Accordion = ({questions,answer, active, setActive}) => {
             <h3>{ questions}</h3>
             </div>
             <div className={Classes.AccordionSign }><span onClick ={()=> setActive(questions)}>
-                { active === questions ? "+" : "-"}</span></div>
+                { active === questions ? "-" : "+"}</span></div>
         </div>
         <div className={ ( active === questions ? "show" : "") + Classes.AccordionAnswer}>
             <p>{answer}</p>

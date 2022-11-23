@@ -1,13 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import HeroTemplate from "../../components/HeroTemplate/HeroTemplate"
 import Images from "../../assets/Images/hero-img1.jpg";
 import OurServices from "../../components/OurServices/OurServices";
 import  Email  from '../../components/Email/Email';
 import SolutionPartner from "../../components/SolutionPartner/SolutionPartner";
 import Workforce from "../../components/WorkForce/Workforce";
+import Image6 from "../../assets/Images/fe-vs-be.jpg";
 
 
 const Home = () => {
+ 
   return (
     <div>
       <HeroTemplate
@@ -17,7 +19,8 @@ const Home = () => {
       "
       />
       <OurServices/>
-      <SolutionPartner/>
+      {/* <SolutionPartner
+      /> */}
        <Workforce/>
        <Email/> 
     </div>

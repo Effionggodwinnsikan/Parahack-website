@@ -1,48 +1,69 @@
-.CloudComputing{
+.CloudComputing1{
     width:100%;
     display: flex;
     flex-direction: column;
+    padding: 4rem 0;
+   
 }
 .CloudComputing h2{
     font-size:2.5rem;
-    padding: 2rem 0;
     text-align: center;
-    padding:2rem 6rem;
+    padding:4rem 6rem 2rem 6rem;
 }
 .CloudComputing p{
     line-height:2.2rem ;
     padding:0 6rem;
+   
+}
+.Cloud p{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 
+    0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 .Cloud img{
     width:20%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 
+    0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 .Delivering{
     display:flex;
     flex-direction: column;
-    padding: 2rem 6rem;
+    padding: 4rem 6rem;
     width: 100%;
     justify-content:center;
     align-items:center ;
 }
 .Delivering1{
     display:flex;
-    
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3)
+     0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 .Delivering2{
     display:flex;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 
+    0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 .Delivering h3{
     font-size:2rem;
-    padding-bottom: 1.5rem;
+    padding:2rem 6rem 2rem 6rem;
 }
 .Cloud{
     border:1px solid #555;
-    padding: .9rem;
+    padding: .5rem;
     margin: 2rem;
+    width:100%;
+    justify-content:center;
+    align-items:center ;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 
+    0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 .Cloud{
     font-size:1.5rem;
     font-weight: var(--light);
+}
+.AccordionHeading{
+    justify-content:center;
+    display: flex;
+    padding:3rem;
 }
 
 @media (max-width: 768px){
@@ -55,5 +76,60 @@
         line-height:2rem ;
         padding:0 3rem;
         text-align: center;
+    }
+}
+@media (max-width: 700px){
+    .CloudComputing  h2{
+        font-size:2rem;
+       
+        padding:2rem 3rem;
+    }
+    .CloudComputing  p{
+        line-height:2rem ;
+        padding:0 3rem;
+        text-align: center;
+    }
+    .Delivering h3{
+       text-align: center;
+       width: 100%;
+    }
+    .AccordionHeading{
+        font-size:2.5rem ;
+    }
+}
+@media (max-width: 650px){
+    .Delivering1{
+        flex-direction:column;
+        padding:0 3rem;
+        align-items:center ;
+        justify-content:center;
+    }
+    .Delivering{
+        padding: 2rem 0;
+        width: 100%;
+        
+    }
+    .Delivering h3{
+        
+        padding: 2rem 3rem;
+        width: 100%;
+        font-size:1.8rem ;
+        
+    }
+    .Delivering2{
+        flex-direction:column;
+        padding:0 3rem;
+        align-items:center ;
+        justify-content:center;
+    }
+    .AccordionHeading h1{
+        font-size:2rem ;
+        justify-content:center;
+        align-items:center ;
+        text-align: center;
+    }
+    
+    .Cloud{
+        margin:0;
     }
 }

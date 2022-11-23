@@ -10,7 +10,7 @@
 }
 .footerContainer{
     background-color:#444;
-    padding: 1rem 6rem 0 6rem;
+    padding:  4rem;
     display:flex;
     justify-content:space-between;
     flex-wrap: wrap;
@@ -19,12 +19,12 @@
 }
 .footerContainer h3{
     color:var(--primary);
-    padding-bottom: .9rem;
+    padding-bottom: 1.5rem;
 }
 .footerContainer li{
     color:var(--primary) ;
-    padding-bottom: .8rem;
-    font-size: .8rem;
+    padding-bottom: 2.2rem;
+    font-size: 1rem;
 }
 .footerContainer a{
     color :white;
@@ -93,7 +93,7 @@ transform:scale(1.5);
 }
 @media (max-width:980px){
     .footerContainer{
-        padding: 0 0 0 0;
+        padding:  4rem;
         justify-content:space-evenly;
     }
     .FormData input{
@@ -101,10 +101,7 @@ transform:scale(1.5);
        
         
     }
-    .footerContainer h3{
-        color:var(--primary);
-        padding-bottom: 0;
-    }
+    
     .Footerbottom{
         display:block;
         
@@ -112,7 +109,7 @@ transform:scale(1.5);
 }
 @media (max-width: 768px){
     .footerContainer{
-        padding: 2rem 0 0 0;
+        padding: 2rem 3rem;
         justify-content:space-evenly;
        
     }
@@ -124,23 +121,24 @@ transform:scale(1.5);
 }
 @media (max-width: 654px){
     .footerContainer{
-        padding: 2rem 0 0 0;
+        padding: 3rem ;
         justify-content:space-evenly;
-       height:89vh;
+       height:95vh;
     }
 }
-@media (max-width: 425px){
+@media (max-width: 572px){
     .footerContainer{
-        padding: .2rem 0 0 1rem;
+        padding: 2rem;
         justify-content:flex-start;
-        flex-direction:column;
-      
+       flex-direction:column;
+        height:135vh;
+       
     }
     .footerContainer h3{
         padding-top: .9rem;
     }
     .FormData input{
-       width: 80%;
+       width: 70%;
        
         
     }

@@ -11,7 +11,7 @@
     display:flex;
     width:100%;
     flex-direction:column;
-    padding :1rem 6rem;
+    padding :3rem 6rem;
 
 }
 .custom h1{
@@ -33,17 +33,191 @@
 }
 .AccordionHeading{
     display:flex;
-    padding:2rem 6rem;
+    padding:4rem 6rem;
     flex-direction:flex-start ;
     
 }
 .AccordionHeading h1 {
-    justify-content:flex-start;
+    justify-content:center;
     font-size:3.5rem;
     display: flex;
     width: 100%;
    
 }
+.Hero{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    color: #fff;
+    display: flex;
+    margin: 3rem 0;
+}
+.overlay{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    top: 0;
+    left: 0;
+    
+}
+.Hero img{
+    width: 100%;
+    height: 70vh;
+    object-fit:cover;
+    z-index:-1;
+}
+.content{
+    position: absolute;
+    top:15%;
+    right: 5%;
+    left:0;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding: 0 6rem;
+    z-index: 1;
+}
+.content1{
+   width: 50%; 
+   margin-right: 2rem;
+  
+}
+.content2{
+    width: 50%; 
+  
+}
+.content2 h2{
+    border-bottom: 3px solid #fff;
+    padding-bottom: 1rem; 
+    font-size: 2.3rem;
+  
+}
+.content1 h2{
+   border-bottom: 3px solid #fff;
+   margin-bottom: 1rem;
+   font-size: 2.3rem;
+   align-items:flex-start;
+   
+ }
+.content p{
+     margin-bottom:2rem;
+     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 3%;
+    line-height:2rem ;
+   
+    
+}
+.speciality1{
+    position: relative;
+    width: 65%;
+    padding:1rem 6rem 1rem 6rem ;
+    box-shadow:rgba(0,0,0,0.4) 0px 2px 4px, rgba(0,0,0,0.3) 0px 7px 13px -3px, 
+    rgba(0,0,0, 0.2) 0px -3px 0px inset;
+  }
+  .speciality p{
+      line-height:2.2rem ;
+     
+      }
+      .speciality{
+      display :flex;
+      padding: 6rem 6rem 4rem 6rem;
+      }
+      .speciality h2{
+          padding-bottom:2rem;
+      }
+
+      .client{
+        width: 100%;
+        height: 70vh;
+        position: relative;
+        color: #fff;
+    }
+    .clientOverlay{
+        background-color: rgba(0,0,0,0.5);
+        position: absolute;
+        width: 100%;
+        height: 70vh;
+        top: 0;
+        left: 0;
+        
+    }
+    .client img{
+        width: 100%;
+        height: 70vh;
+        object-fit:cover;
+        z-index:-1;
+    }
+    .clientContent{
+        position: absolute;
+        top:20%;
+        height: 70vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        padding:1rem;
+        z-index: 1;
+    }
+    .clientContent p{
+         margin-top:1rem;
+         display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        font-size: 1.5rem;
+        
+    }
+    .clientContent h1{
+        margin-bottom:1rem;
+        display: flex;
+       justify-content: center;
+       flex-direction: column;
+       text-align: center;
+       font-size: 3.5rem;
+       position: 2rem;
+       
+    }
+    .lifecycle{
+        display: flex;
+        background-color:var(--secondary);
+        padding:6rem;
+        box-shadow:rgba(0,0,0,0.4) 0px 2px 4px, rgba(0,0,0,0.3) 0px 7px 13px -3px, 
+        rgba(0,0,0, 0.2) 0px -3px 0px inset;
+    }
+    .lifecycle h2{
+        font-size:2.5rem;
+        color:white;
+        padding-bottom:1rem;
+    }
+    .lifecycle p{
+        font-size:1.2rem;
+        color:white;
+        padding-bottom:1rem;
+        width:70%;
+    }
+   .circle{
+    background-color:white;
+    border-radius: 100%;
+    box-shadow:rgba(0,0,0,0.4) 0px 2px 4px, rgba(0,0,0,0.3) 0px 7px 13px -3px, 
+    rgba(0,0,0, 0.2) 0px -3px 0px inset;
+   }
+   .circle p{
+    text-align:center;
+    align-items:center ;
+    padding:3rem ;
+    font-size:2rem;
+    font-weight: var(--light);
+    color: var(--secondary);
+   
+   }
 
 @media (max-width: 980px){
     .btn{
@@ -58,6 +232,100 @@
         text-align: center;
         font-size:2.5rem;
     }
+    .content{
+        top:12%;
+    }
+    .lifecycle{
+        flex-direction:column;
+        justify-content: center;
+        align-items:center ;
+        margin-right: 0;
+       
+
+    }
+    .lifecycle h2{
+        justify-content: center;
+        align-items:center ;
+        padding-bottom: 1rem;
+        padding-right: 0;
+        width: 100%;
+        text-align: center;
+       
+    }
+    .coverage p{
+        justify-content: center;
+        align-items:center ;
+        text-align: center;
+        padding-bottom: 1rem;
+        margin-right: 0;
+        width: 100%;
+    }
+    .circle{
+        margin-right: 0;
+        justify-content: center;
+        align-items:center ;
+        display: flex;
+    }
+    .speciality{
+        flex-direction:column;
+    }
+    .speciality1{
+        position: relative;
+        width: 100%;
+        padding:2rem 6rem 4rem 6rem ;
+      }
+      .speciality h2{
+        text-align:center;
+        justify-content: center;
+        align-items:center ;
+    }
+    .speciality p{
+        text-align:center;
+        justify-content: center;
+        align-items:center ;
+    }
+}
+@media (max-width: 874px){
+    .content{
+        flex-direction:column;
+        height:100vh;
+    }
+    .content{
+        top:7%;
+        left:0%;
+        padding:0 6rem;
+        width:100%;
+        justify-content: center;
+        align-items:center ;
+    }
+    .content1{
+        width: 100%; 
+        margin-right: 0;
+       
+     }
+     .content2{
+        width: 100%; 
+        margin-right: 0;
+       
+     }
+    .overlay{
+        
+        height: 110vh;
+       
+        
+    }
+    .Hero img{
+       
+        height: 110vh;
+        
+    }
+    .Hero{
+        height: 110vh;
+        
+    }
+    .content p{
+        width: 100%;
+    }
 }
 @media (max-width: 768px){
     .btn{
@@ -68,12 +336,41 @@
         font-size:2rem;
         
     }
+    .content{
+        padding:0 4rem;
+    }
+    
+    .content1 h2{
+        width: 100%;
+    }
     .AccordionHeading h1{
         text-align: center;
         font-size:2rem;
         padding:2rem 3rem;
         justify-content:center;
     }
+    .clientContent{
+
+        top:3%;
+        height: 80vh;
+       
+    }
+    .lifecycle{
+        padding:4rem;
+    }
+
+    
+    .speciality1{
+       
+        padding:2rem 4rem 4rem 4rem ;
+      }
+      .speciality h2{
+       padding: 2rem 4rem;
+    }
+    .speciality p{
+        padding: 2rem 4rem;
+    }
+    
 }
 @media (max-width: 568px){
     .btn{
@@ -86,4 +383,89 @@
         text-align: center;;
         font-size:1.5rem;
     }
+    .clientContent{
+
+        top:5%;
+        height: 100vh;
+       
+    }
+    .clientContent h1{
+        font-size: 2.8rem;
+       
+    }
+    .lifecycle{
+        padding:3rem;
+    }
+    .speciality1{
+       
+        padding:2rem 3rem 4rem 3rem ;
+      }
+      .speciality h2{
+       padding: 2rem 3rem;
+    }
+    .speciality p{
+        padding: 2rem 3rem;
+    }
+}
+@media (max-width: 425px){
+    .content1{
+        width: 100%; 
+        margin-right: 0;
+       
+     }
+     .content2{
+        width: 100%; 
+        margin-right: 0;
+       
+     }
+     .content{
+        padding:0 2.5rem;
+    }
+    .content p{
+        margin-bottom:1rem;
+       
+       line-height:1.5rem ;
+      
+       
+   }
+   .AccordionHeading{
+   
+    padding: 1rem  0 1.5rem 0;
+   
+    
+}
+.clientContent{
+
+    top:1%;
+    height: 100vh;
+    font-size: 1rem;
+   
+}
+.lifecycle{
+    padding:2rem;
+    
+}
+.speciality{
+    padding:3rem 0;
+}
+       
+   
+  
+  .speciality h2{
+   padding: 2rem 4rem;
+}
+.speciality p{
+    padding: 2rem 4rem;
+}
+.speciality1{
+       
+    padding:1rem 3rem 1rem 3rem ;
+
+  }
+  .speciality h2{
+   padding: 2rem 1rem 1rem 1rem;
+}
+.speciality p{
+    padding: 2rem ;
+}
 }

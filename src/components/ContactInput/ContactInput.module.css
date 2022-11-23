@@ -1,7 +1,7 @@
 .formContainer{
     display:flex;
     width: 100%;
-     height: 80vh;
+     height: 120vh;
     background-color:white;
     justify-content:center;
     align-items:center ;
@@ -11,7 +11,7 @@
 
 .formInnerContainer{
     display:flex;
-    /* padding:0 6rem; */
+     padding:0 6rem; 
     flex-direction: column;
     width: 100%;
     justify-content:center;
@@ -22,14 +22,14 @@
     
      
     color:black;
-    padding:.5rem 6rem;
+    padding:2rem 6rem;
 }
 .emailInput{
     border:none;
     border-bottom: 3px solid var(--primary)!important;
     margin-right: 1rem;
     
-    padding: 2rem 15rem 0.5rem 0.5rem;
+    padding: 4rem 15rem 0.5rem 0.5rem;
     background-color: transparent !important;
     color:gray;
     font-size:1rem;
@@ -64,7 +64,7 @@
     border:none;
     border-bottom: 3px solid var(--primary);
     width: 83%;
-    padding: 3rem 17rem 0 0;
+    padding: 4rem 17rem 0 0;
    
     
     
@@ -75,7 +75,7 @@
 } 
 .btn{
     border: none;
-    padding: 1rem 2rem ;
+    padding: 1rem 2rem !important;
     cursor: pointer;
     border-radius:20px ;
 }
@@ -98,56 +98,101 @@
    
 }
 @media (max-width: 1318px){
+   
+   
+    .textarea1 textarea {
+        padding: 4rem 15rem 0.5rem 0.5rem;
+        font-family: var(--primary);
+        
+        background-color: transparent !important;
+        color: gray;
+        font-size:1rem;
+        border:none;
+        border-bottom: 3px solid var(--primary);
+        width: 83%;
+        padding: 5rem 17rem 0 0;
+       
+        
+        
+    } 
     .emailInput{
-        margin-top:1rem ;
-        margin-right: .3rem;
-        padding: 0.25rem 10rem 0.25rem 0.25rem;
-        font-size:.8rem;
+        border:none;
+        border-bottom: 3px solid var(--primary)!important;
+        margin-right: 1rem;
+        
+        padding: 4rem 15rem 0.5rem 0.5rem;
+        background-color: transparent !important;
+        color:gray;
+        font-size:1rem;
         
         
         
+    }
+    
+}
+@media (max-width: 1024px){
+    .textarea1 textarea {
+        
+        width: 83%;
+        padding: 3rem 17rem 0 0;
+       
+        
+        
+    } 
+    .emailInput{
+       
+        
+        padding: 4rem 10rem 0.5rem 0.5rem;
+        
+        
+        
+        
+    }
+    .formInnerContainer{
+        display:flex;
+         padding:0 6rem; 
+        flex-direction: column;
+        width: 100%;
+        justify-content:center;
+        align-items:center ;
+       
+    }
+    .formContainer{
+        height: 95vh;
     }
 }
 @media (max-width:980px){
     .emailInput{
-        padding-top:1rem ;
         padding-right: .3rem;
-        padding: 0.25rem 8rem 0.25rem 0.25rem;
+        padding: 4rem 12rem 1rem 0.25rem;
         font-size:.8rem;
-        
-        
-        
+          
     }
     .emailContainar{
         margin-top:3rem ;
     }
-    .formInnerContainer{
-        padding:0 5rem;
-         margin-top: 2rem;
-        
-         
-    }
+    
     .textarea1 textarea {
         padding: 1rem 5rem;
         /* margin:2rem 0 .5rem 5rem; */
         width: 75%;
-        padding: 1rem 10rem 0.5rem 0.5rem;   
+        padding: 4rem 10rem 1rem 0.5rem;   
     }
-    .emailAddress{
-        padding-right:1rem;
+     
+    .formContainer{
+        height: 115vh;
     }
-    form {
-        top:10%;
-        left:0 ;
-        
-        
-    }
-    form h4{
-        margin-top: .5rem; 
+   
+}
+@media (max-width:952px){
+    .formContainer{
+        height: 125vh;
     }
 }
-@media(max-width:906px){ 
-    .formContainer{
+
+
+@media(max-width:920px){ 
+     .formContainer{
        display:block;
        justify-content:center;
        width:100% ;
@@ -167,73 +212,54 @@
         margin-top: 1rem;
         justify-content:space-between;
         width: 100%;
-    }
-    .emailContainar{
-        margin-top:0 ;
-    }
-    form {
-        top:0;
-        left:0 ;
-        
-        
-    }
-    .textarea1 textarea {
+    } 
+   
+     .textarea1 textarea {
         padding: 1rem 4rem;
         margin:2rem 0 .5rem 4rem;
         width: 80%;
-        padding: 1rem 10rem 0.5rem 0.5rem;   
-    } 
-    form h4{
-        margin-top: .5rem; 
-    }
+        padding: 3rem 10rem 1rem 0.5rem;   
+    }  
+   
+   
+    
    
 }
-@media (max-width: 600px){
-    .textarea1 textarea {
-        width: 66%; 
-        padding: 0 2rem;
-        overflow-x: hidden;  
-    } 
-    .emailAddress{
-        top: 70%;
-        padding: 0 2rem;
-    }
+
+@media (max-width: 878px){
     .formContainer{
-         justify-content:center; 
-         width: 100%;
-         padding: 0 2rem;
+        height: 135vh;
     }
-    .call p{
-        margin-left: 0;
-        color:white;
-        font-size: 1rem;
-        margin-bottom:0;
+}
+@media (max-width: 797px){
+    .emailInput{
+       
+       
+        padding: 4rem 9rem 0.25rem 0.25rem;
+        font-size:.8rem;
+        width: 100%;
+        
         
     }
-    .btn{
-        border: none;
-        padding: 1rem 1rem;
-        cursor: pointer;
-        border-radius:20px ;
-        overflow-x: hidden;
+    .textarea1 textarea {
+        
+        padding: 4.5rem 9rem 0 0.5rem;
+       margin-left: 3.5rem;
+       margin-top: 0;
+       margin-bottom: 1rem;
+       width: 75%;
+    } 
+    .formContainer{
+        height: 110vh;
+    }
+    .formContainer h4{
+        padding: 2rem  3rem  0 3rem;
+    }
+    .formInnerContainer{
+        margin-top: 0;
     }
     .btnContainer{
-        align-items: center;
-        display: flex;
-        width:100% ;
-        padding:0 4rem;
-        overflow-x: hidden;
-        margin-right: 0!important;
-    }
-    form h4{
-        width:90%;
-        font-size:1rem; 
-        padding: 0 2rem 0 2rem; 
-        justify-content:center;
-        text-align: center;
-        margin-left: 0 !important;
-    }
-    .formContainer{
-        overflow-x: hidden;
+        padding-left: 4rem;
+        margin-right: 0;
     }
 }

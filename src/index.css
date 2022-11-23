@@ -49,9 +49,12 @@ button:focus {
 button{
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),var(--primary);
   border-radius: 5px;
-  padding:.7rem .5rem;
+  padding:.7rem .5rem !important;
   color: #fff;
+  border:none;
   cursor: pointer;
+  box-shadow:rgba(0,0,0,0.4) 0px 2px 4px, rgba(0,0,0,0.3) 0px 7px 13px -3px, 
+  rgba(0,0,0, 0.2) 0px -3px 0px inset;
 }
 button:hover {
   background:var(--secondary);

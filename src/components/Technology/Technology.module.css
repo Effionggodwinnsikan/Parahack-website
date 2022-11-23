@@ -1,6 +1,6 @@
 .Technology{
     width: 100%;
-    padding:2rem 6rem;
+    padding:3rem 4rem;
     
 }
 .TechnologyGuideline{
@@ -10,17 +10,21 @@
 .TechnologyGuideline h2{
     width:50%;
     font-size:2.5rem ;
+
 } 
 .TechnologyGuideline p{
     width:50%;
     line-height:2.22rem;
+    padding-bottom:3rem ;
 }
 .Technology1{
     display:flex ;
-    padding-top: 2rem;
+    padding-top: 4rem;
+    justify-content:space-evenly ;
 }
 .TechnologyGeneral{
     display:flex ;
+  
     width: 53%;
     
 }
@@ -44,3 +48,107 @@
     width:44%;
     line-height:1.5rem;
 }
+ @media (max-width: 968px){
+    .TechnologyGuideline{
+        flex-direction:column;
+    } 
+    .TechnologyGuideline h2{
+        width:100%;
+        font-size:2.5rem ;
+    
+    } 
+    .Technology{
+        width: 100%;
+        padding:3rem ;
+        
+    }
+    .TechnologyGuideline p{
+        width:100%;
+        line-height:2.22rem;
+        padding-bottom:3rem ;
+    }
+    .TechnologyGeneral{
+       flex-direction:column;
+      
+      
+        width:50%;
+        
+    }
+    .TechnologyGeneral h3{
+        width:80%;
+        font-size:2rem ;
+        padding-bottom: 2rem;
+    }
+    .TechnologyGeneral p{
+        width:85%;
+        line-height:2rem;
+    }
+    .TechnologySpecific{
+       flex-direction:column;
+      
+        width:50%;
+    }
+    .TechnologySpecific h3{
+        width:80%;
+        font-size:2rem ;
+        padding-bottom: 2rem;
+    }
+    .TechnologySpecific p{
+        width:85%;
+        line-height:1.5rem;
+    }
+ }
+ @media (max-width:768px){
+    .Technology1{
+        display:block;
+       
+       
+         width:100%;
+         
+     }
+     .TechnologyGeneral{
+       
+         width:100%;
+         
+     }
+     .TechnologyGeneral p{
+        width:100%;
+        
+    }
+    .TechnologyGeneral h3{
+        padding-top:2rem ;
+        width:100%;
+        
+     }
+     .TechnologySpecific {
+        width:100%;
+       
+    }
+    .TechnologySpecific p{
+        width:100%;
+        line-height:2.2rem;
+    }
+    .TechnologySpecific h3{
+       padding-top:4rem ;
+       width:100%;
+       line-height:2.2rem;
+    }
+ }
+ @media (max-width: 568px){
+    .TechnologySpecific {
+       text-align: center;
+    }
+   
+    .TechnologyGeneral {
+        text-align:center ;
+        
+     }
+     .TechnologyGuideline {
+        text-align:center 
+    
+    } 
+    .TechnologyGuideline h2{
+        padding-bottom:2rem ;
+    
+    } 
+ }

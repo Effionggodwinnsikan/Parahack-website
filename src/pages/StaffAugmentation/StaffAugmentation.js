@@ -93,7 +93,7 @@ const StaffAugmentation = () => {
         </div>
       </div>
       <div className={Classes.AccordionHeading}>
-        <h1>Software development FAQ</h1>
+        <h1>Staff Augmentation FAQ</h1>
         </div>
       <Accordion
         questions="How do we communicate with our augmented team?"

@@ -11,7 +11,9 @@
     display: flex;
     flex-direction: column;
     background-color: #fbf9f9;
-    margin: 0 6rem .9rem 6rem; 
+    margin: 3rem 6rem 3rem  6rem; 
+    box-shadow:  rgba(0,0,0,0.25) 0px 54px 55px, rgba(0,0,0,0.12) 0px -12px 30px, 
+    rgba(0,0,0,0.12) 0px 4px 6px 6px, rgba(0,0,0,0.17) 0px 12px 13px, rgba(0,0,0,0.9) 0px -3px 5px;
    
 }
 .AccordionHeader{
@@ -42,6 +44,7 @@
     font-size:2rem;
     background-color:black;
     border-radius: 100%;
+    color:white;
 }
 .AccordionContainer p{
     padding:.9rem 2rem; 

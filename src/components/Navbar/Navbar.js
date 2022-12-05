@@ -9,11 +9,12 @@ import ButtonsItem from "../ButtonItems/ButtonItem";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleNav = () => setNav(!nav);
+  
 
   
 
   return (
-    <div className={Classes.navbar}>
+    <div className={Classes.navbar} >
       <div className={Classes.logo}>
         <Link to="/">
           <img src={Images} alt="parahack logo" />
@@ -21,7 +22,7 @@ const Navbar = () => {
       </div>
       <ul className={Classes.navMenu}>
         <li>
-          <Link to="/" className={Classes.navlink}>
+          <Link to="/" className={ nav ? Classes.active1 : Classes.navlink }>
             Home
           </Link>
         </li>
@@ -38,6 +39,11 @@ const Navbar = () => {
         <li>
           <Link to="/services" className={Classes.navlink}>
             Our Services
+          </Link>
+        </li>
+        <li>
+          <Link to="/blog" className={Classes.navlink}>
+           Blog
           </Link>
         </li>
       </ul>
@@ -76,6 +82,11 @@ const Navbar = () => {
           <li>
             <Link to="/services" className={Classes.navlink}>
               Our Services
+            </Link>
+          </li>
+          <li>
+            <Link to="/blog" className={Classes.navlink}>
+              Blog
             </Link>
           </li>
         </ul>

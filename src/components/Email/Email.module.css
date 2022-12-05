@@ -99,7 +99,7 @@ form{
 } 
 .btn{
     border: none;
-    padding: 1rem 3rem;
+    padding: 1rem 4rem !important;
     cursor: pointer;
     border-radius:20px ;
 }
@@ -214,11 +214,11 @@ form{
         margin-right: 0;
     }
     .formContainer{
-        height:200vh;
+        height:160vh;
     }
     .formContainer img{
      
-        height: 200vh;
+        height: 160vh;
         
     }
     .emailAddress{
@@ -246,6 +246,7 @@ form{
     .formContainer{
        align-items:flex-start;
        justify-content:center;
+       top:0;
     }
     .emailAddress{
         top:80%;
@@ -263,5 +264,10 @@ form{
         
         padding: 1rem 4rem !important;
       
+    }
+    .formContainer h2{
+      width: 100vw;
+      display: flex;
+      text-align: center;
     }
       }

@@ -14,6 +14,7 @@
     z-index:+11111111;
 }
 
+
 .hamburger{
     display:none;
     padding:1rem;
@@ -49,6 +50,9 @@
 li :hover{
     color:var(--secondary);
 
+}
+.active1{
+    color:var(--secondary);  
 }
 
 .Icons{

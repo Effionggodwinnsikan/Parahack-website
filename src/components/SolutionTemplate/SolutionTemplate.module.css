@@ -92,7 +92,8 @@ position: relative;
     .servicesimg p{
        
         top:20%;
-       
+        font-size: 1rem;
+        line-height: 1.5rem ;
         
     }
     .content{

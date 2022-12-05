@@ -9,7 +9,7 @@ const OurServicePage = ({ bgImg, text, content }) => {
           <img src={bgImg} alt="/" />
           <div className={Classes.overlay}>
             <div className={Classes.content}>
-              <h4>{content}</h4>
+              <h2>{content}</h2>
         <p>{text}</p>
             </div>
           </div>

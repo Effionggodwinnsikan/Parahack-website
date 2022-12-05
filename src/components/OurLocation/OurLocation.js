@@ -1,5 +1,5 @@
 import React from "react";
-import Images from "../../assets/Images/map.webp";
+import Images from "../../assets/Images/map.jpg";
 import Classes from "./OurLocation.module.css";
 
 const OurLocation = () => {

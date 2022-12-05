@@ -15,13 +15,18 @@
 .content{
     background:#fff;
     text-align: center;
-    color:  #464646;
+    color:  #000;
     border-radius: 0 0 10px 10px;
     padding:2rem 1rem ;
-    font-size: 1.2rem;
     margin-bottom: 0.5rem;
     box-shadow:rgba(0,0,0,0.4) 0px 2px 4px, rgba(0,0,0,0.3) 0px 7px 13px -3px, 
     rgba(0,0,0, 0.2) 0px -3px 0px inset;
+}
+.content p{
+    line-height: 2.2rem ;
+}
+.content h2{
+    padding-bottom: 2rem;
 }
 .servicesBtn{
     margin:.6rem auto 1rem;
@@ -38,5 +43,10 @@
     
 }
 @media(max-width: 550px){
-    
+    .content p{
+        line-height: 1.5rem ;
+    }
+    .content h2{
+        padding-bottom: 1.5rem;
+    }
 }

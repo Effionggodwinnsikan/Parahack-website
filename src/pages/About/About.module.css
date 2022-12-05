@@ -312,6 +312,8 @@
             display:flex;
             text-align: center;
             padding-right: 0;
+            font-size: 1rem;
+            line-height: 1.5rem ;
         }
         .WhoWeAre h2{
             display:flex;

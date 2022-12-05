@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Classes from "./Email.module.css";
-import Image from "../../assets/Images/Content-Relationships-1.jpg";
+import Image from "../../assets/Images/happyteam.jpg";
 import { FaPhoneAlt } from "react-icons/fa";
 import { TfiEmail } from "react-icons/tfi";
 

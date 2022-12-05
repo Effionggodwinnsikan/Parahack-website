@@ -1,0 +1,23 @@
+.SideBar p{
+padding: 1.5rem 0;
+color: #555;
+border-bottom: 1px solid #555;
+}
+.SideBar img{
+    width:35%;
+    display:flex;
+    justify-content:center;
+    align-items:center ;
+    margin: 4rem auto;
+}
+@media (max-width: 768px){
+    .SideBar{
+        padding-top: 6rem;
+    }
+   .SideBar h3{
+     display:flex;
+     justify-content:center;
+     width: 100%;
+     margin: 0 auto;
+   }
+}

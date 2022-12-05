@@ -1,0 +1,37 @@
+.Schedule{
+    border:1px solid var(--secondary);
+     padding: 1rem; 
+    margin:3rem auto;
+    width: 35%;
+    /* display: flex; */
+}
+ 
+  
+
+ 
+.Schedule:hover{
+background-color:#888;
+}
+.Schedule h6{
+    color:var(--secondary);
+    font-size: 1.5rem;
+}
+@media (max-width: 768px){
+    .Schedule{ 
+        margin:2rem auto;
+        width: 65%;
+      
+    }
+     
+}
+@media (max-width: 568px){
+    .Schedule{ 
+        margin:2rem auto;
+        width: 90%;
+      
+    }
+    .Schedule h6{
+       
+        font-size: 1rem;
+    }
+}

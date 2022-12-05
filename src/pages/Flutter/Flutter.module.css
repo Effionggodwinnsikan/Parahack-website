@@ -1,0 +1,44 @@
+.Container{
+    display:flex; 
+    margin: 6rem;
+}
+.ContainerPg{
+    width: 150%;
+    padding-right: 3rem;
+}
+.ContainerPg p{
+    line-height:2.2rem;
+    padding-bottom:2rem;
+}
+.ContainerPg h3 , h4,h5{
+    padding: 1.5rem 0;
+    color: var(--secondary);
+}
+.ContainerPg li{
+    padding: 1rem 0;
+    color: var(--secondary);
+}
+
+@media (max-width: 768px){
+    .Container{
+       flex-direction: column;
+        margin: 3rem;
+    }
+    .ContainerPg{
+        width: 100%;
+        padding-right: 0;
+    }
+}
+@media (max-width: 568px){
+    .ContainerPg p{
+        line-height:1.5rem;
+        text-align:center;
+        padding-bottom:1rem;
+    }
+    .ContainerPg h3 , h4, h5{
+        text-align:center;
+    }
+    .Container{
+         margin: 3rem 2rem;
+     }
+}

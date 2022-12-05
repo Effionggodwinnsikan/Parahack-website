@@ -14,7 +14,7 @@ import Image11 from "../../assets/Images/python.png";
 import Image12 from "../../assets/Images/react image.png";
 import Image13 from "../../assets/Images/swift.png";
 import Image14 from "../../assets/Images/html.png";
-import Images15 from "../../assets/Images/map.webp";
+import Images15 from "../../assets/Images/map.jpg";
 import Classes from "./WorkForce.module.css";
 
 const Workforce = ({}) => {
@@ -57,7 +57,7 @@ const Workforce = ({}) => {
           </div>
         </div>
       </div>
-      <div>
+      <div  className={Classes.map}>
         <img src={Images15} alt="/" />
       </div>
     </div>

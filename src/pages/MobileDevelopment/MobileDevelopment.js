@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Images from "../../assets/Images/app images.jfif";
 import HeroTemplate from "../../components/HeroTemplate/HeroTemplate";
 import Classes from "./MobileDevelopment.module.css";
-import ButtonItems from "../../components/ButtonItems/ButtonItem";
 import { Link } from "react-router-dom";
 import { ImAndroid } from "react-icons/im";
 import { SiFlutter, SiIos } from "react-icons/si";

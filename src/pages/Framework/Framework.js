@@ -24,14 +24,14 @@ const Framework = () => {
             </p>
             <p>
               Moreover, cross-platform mobile app development is becoming more
-              common because of its easy-to-build & maintainenance features and
+              common because of its easy-to-build & maintenance features and
               cross-functionality.
             </p>
             <p>
               With an increasing number of mobile users and mobile apps being
               developed, it’s essential to figure out which cross-platform
               mobile app development frameworks are commonly used and preferred
-              by developers. Moreso, if you’re looking to opt for mobile app
+              by developers. More so, if you’re looking to opt for mobile app
               development services.
             </p>
             <p>

@@ -225,7 +225,7 @@ const Flutter = () => {
           <p>
             In conclusion, I would urge all startups or established
             organizations to do the due diligence to ensure the agency that will
-            be doing the development has the knowledge, skillsets, and expertise
+            be doing the development has the knowledge, skill sets, and expertise
             to get the project completed on time without sacrificing code
             quality. I often come across projects that are halfway done, using
             outdated tech stack where the client has spent a significant amount

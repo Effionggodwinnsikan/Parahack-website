@@ -13,10 +13,9 @@ import Services from "./pages/Services/Services";
 import Framework from "./pages/Framework/Framework";
 import Flutter from "./pages/Flutter/Flutter";
 import Intelligence from "./pages/Intelligence/Intelligence";
-import Qeuirement from "./pages/Requirement/Requirement";
+import Requirement from "./pages/Requirement/Requirement";
 import SoftwareFirm from "./pages/SoftwareFirm/SoftwareFirm";
-import Blog from "./pages/Blog/Blog";
-import BlogHome from "./pages/BlogHome/BlogHome";
+import Blog from "./pages/Blogs";
 import SoftwareDevelopment from "./pages/SoftwareDevelopment/SoftwareDevelopment";
 import StaffAugmentation from "./pages/StaffAugmentation/StaffAugmentation";
 import ScrollToTop from "./components/ScrollToApp.js/ScrollToTop";
@@ -38,10 +37,8 @@ const App = () => {
           <Route exact path="/framework" element={<Framework />} />
           <Route exact path="/flutter" element={<Flutter/>} />
           <Route exact path="/intelligence" element={<Intelligence/>} />
-          <Route exact path="/qeuirement" element={<Qeuirement/>} />
+          <Route exact path="/requirement" element={<Requirement/>} />
           <Route exact path="/softwareFirm" element={<SoftwareFirm/>} />
-          {/* <Route path="/blogHome/*" element={<BlogHome />} /> */}
-          {/* <Route path="/blogHome/:Id" render={(props) => <BlogHome {...props}/>}  element={<BlogHome />} /> */}
           <Route exact path="/software" element={<SoftwareDevelopment />} />
           <Route exact path="/mobile" element={<MobileDevelopment />} />
           <Route exact path="/cloud" element={<CloudComputing />} />

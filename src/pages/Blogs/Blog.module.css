@@ -1,0 +1,6 @@
+.paginate{
+    display:flex;
+    justify-content:center;
+    height: 10vh;
+    align-items:center ;
+}

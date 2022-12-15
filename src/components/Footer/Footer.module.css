@@ -123,19 +123,20 @@ transform:scale(1.5);
     .footerContainer{
         padding: 3rem ;
         justify-content:space-evenly;
-       height:95vh;
+       height:105vh;
     }
 }
 @media (max-width: 572px){
     .footerContainer{
         padding: 2rem;
         justify-content:flex-start;
-       flex-direction:column;
-        height:135vh;
+       flex-direction:column ;
+        height:155vh;
        
     }
     .footerContainer h3{
         padding-top: .9rem;
+
     }
     .FormData input{
        width: 70%;

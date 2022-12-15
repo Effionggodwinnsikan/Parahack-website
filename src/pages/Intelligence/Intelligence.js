@@ -262,10 +262,10 @@ const Intelligence = () => {
             spent a significant amount of resources to be in a position where
             the project can’t be finished. To learn more about our services,
             click the button below to schedule a free consultation or email us
-            directly at info@heavytask.com
+            directly at info@parahack.com
           </p>
           <p>We look forward to serving you soon!</p>
-          <p>Ayaan Manzur <br/> Marketing Analyst / Writer @ HeavyTask</p>
+          <p>Ayaan Manzur <br/> Marketing Analyst / Writer @ ParaHack</p>
         </div>
         <SideBar bgImg={Image1} />
       </div>

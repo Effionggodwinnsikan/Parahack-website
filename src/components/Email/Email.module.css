@@ -247,6 +247,12 @@ form{
        align-items:flex-start;
        justify-content:center;
        top:0;
+       height:200vh;
+    }
+    .formContainer img{
+     
+        height: 200vh;
+        
     }
     .emailAddress{
         top:80%;

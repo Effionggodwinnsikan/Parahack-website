@@ -2,18 +2,18 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Classes from "./BlogItem.module.css";
 
-const BlogItem = ( { id, cover, description, title, link } ) => {
+const BlogItem = ( blog ) => {
   return (
     <div className={Classes.BlogItem}>
       <div className={Classes.BlogItemImg}>
-         <Link to={link}>
-          <img src={cover} alt="/" />
+         <Link to={blog.link}>
+          <img src={blog.cover} alt={blog.title} />
           </Link>
     
       </div>
       <div className={Classes.BlogItemContent}>
-        <h2>{title}</h2>
-        <p>{description}</p>
+        <h2>{blog.title}</h2>
+        <p>{blog.description}</p>
       </div>
     </div>
   );

@@ -1,14 +1,15 @@
-.SideBar p{
-padding: 1.5rem 0;
-color: #555;
-border-bottom: 1px solid #555;
-}
+
 .SideBar img{
     width:35%;
     display:flex;
     justify-content:center;
     align-items:center ;
     margin: 4rem auto;
+}
+.SideBarLink{
+    color: #555;
+    border-bottom: 1px solid #555;
+    padding: 1.5rem 0;
 }
 @media (max-width: 768px){
     .SideBar{

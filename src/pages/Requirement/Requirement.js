@@ -102,7 +102,7 @@ const Requirement = () => {
             of resources to be in a position where the project can’t be
             finished. To learn more about our software development and staff
             augmentation services, please feel free to email me directly at
-            shah@heavytask.com
+            shah@parahack.com
           </p>
           <p>I look forward to serving you soon!</p>
           <p>Shah Tashfiq <br/>Founder / CEO @ HeavyTask</p>

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import BlogHeader from "../../components/BlogHeader/BlogHeader";
 import BlogItem from "../../components/BlogItem/BlogItem";
 import Images from "../../assets/Images/colabo.jpg";
 import Pagination from '@mui/material/Pagination';
@@ -24,7 +23,11 @@ const Blog = () => {
 
   return (
     <div className={Classes.blog}>
-      <BlogHeader text="Blog" bgImg={Images} />
+       <div className={Classes.BlogHeader}>
+        <div className={Classes.overlay}></div>
+        <img src={Images} alt="/" />
+      <h1>Blog</h1>
+    </div>
       <div className={Classes.blogPost}>
         {currentBlogs.map((blog, i) =>{
           return (

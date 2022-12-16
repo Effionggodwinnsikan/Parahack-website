@@ -1,19 +1,24 @@
 import React from 'react'
 import BlogHeader from "../../components/BlogHeader/BlogHeader";
-import Images from "../../assets/Images/vector engineer.png"
 import SideBar from "../../components/SideBar/SideBar";
 import Classes from "./Requirement.module.css";
 import Image1 from "../../assets/Images/awards.webp";
 import Schedule from "../../components/Schedule/Schedule";
+import {bloglist} from "../../config/Data/Data"
 
 const Requirement = () => {
+  const currentBlogs = bloglist.slice(3,4);
   return (
     <div>
-         <BlogHeader 
-      text="
-      WHAT’S AN SRS (SOFTWARE REQUIREMENT SPECIFICATION), AND WHY IT’S IMPORTANT?"
-      bgImg={Images}
+        {currentBlogs.map((blog, i) =>{
+      return(  
+      <BlogHeader
+       
+        {...blog }
+        key={i}
+       
       />
+    )})};
       <div className={Classes.Container}>
         <div className={Classes.ContainerPg}>
           <p>

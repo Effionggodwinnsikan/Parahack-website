@@ -4,3 +4,46 @@
     height: 10vh;
     align-items:center ;
 }
+.BlogHeader{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+}
+.BlogHeader img{
+    width: 100%;
+    height: 50vh;
+    object-fit:cover;
+    z-index:-1;
+}
+.overlay{
+    background-color: rgba(0,0,0,0.1);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    
+}
+.BlogHeader h1{
+    position: absolute;
+    top:45%;
+    height: 50vh;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    z-index: 1;
+    color:white;
+}
+@media (max-width: 902px) {
+    .BlogHeader h1{
+        top:35%;
+        font-size: 2.5rem;
+    }
+}
+@media (max-width: 568px) {
+    .BlogHeader h1{
+        top:25%;
+        font-size: 2rem;
+    }
+}

@@ -1,18 +1,24 @@
 import React from "react";
 import BlogHeader from "../../components/BlogHeader/BlogHeader";
-import Images from "../../assets/Images/business inteligent images.webp";
 import SideBar from "../../components/SideBar/SideBar";
 import Classes from "./Intelligence.module.css";
 import Image1 from "../../assets/Images/awards.webp";
 import Schedule from "../../components/Schedule/Schedule";
+import {bloglist} from "../../config/Data/Data"
 
 const Intelligence = () => {
+  const currentBlogs = bloglist.slice(2,3);
   return (
     <div>
+      {currentBlogs.map((blog, i) =>{
+      return(  
       <BlogHeader
-        text="HOW TO CHOOSE THE RIGHT SOFTWARE FIRM WHEN BUILDING A PRODUCT?"
-        bgImg={Images}
+       
+        {...blog }
+        key={i}
+       
       />
+    )})};
       <div className={Classes.Container}>
         <div className={Classes.ContainerPg}>
           <p>

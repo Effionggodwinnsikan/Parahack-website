@@ -3,7 +3,7 @@
 export const bloglist = [
   {
     id: 1,
-    title: "TOP 3 CROSS PLATFORM MOBILE DEVELOPMENT APP FRAMEWORK",
+    title: " TOP 3 CROSS-PLATFORM MOBILE APP DEVELOPMENT FRAMEWORKS",
     description:
       "Mobile app development is booming as of 2022. It is estimated that mobile applications will generate over $935 billion in revenue by 2023, and the projected number of mobile users around the globe will be a whopping 7.5 billion! Moreover, cross-platform mobile app...",
     cover: "/assets/images/happyteam.jpg",
@@ -31,7 +31,7 @@ export const bloglist = [
   {
     id: 4,
     title:
-      "WHAT'S AN SRS (SOFTWARE REQUIREMENT SPECIFICATION), AND WHY IT'S IMPORTANT",
+      " WHAT’S AN SRS (SOFTWARE REQUIREMENT SPECIFICATION), AND WHY IT’S IMPORTANT?",
     description:
       "A Software Requirements Specification (SRS) is a document or set describing the behavior and features of the software and mobile applications or systems. The SRS includes several elements that define the functionality and use of the system to meet the requirements.The...",
     cover: "/assets/images/SRS.jpg",
@@ -40,7 +40,7 @@ export const bloglist = [
   },
   {
     id: 5,
-    title: "HOW TO CHOOSE THE RIGHT SOFTWARE FIRM WHEN BUILDING A  PRODUCT? ",
+    title: "  HOW TO CHOOSE THE RIGHT SOFTWARE FIRM WHEN BUILDING A PRODUCT?",
     description:
       "When a startup is looking to build a long-term partnership when building a product, it’s a daunting task because going with the right outsourcing partner can play a massive role in its success. For any startup or a well-established organization, time and...",
     cover: "/assets/images/decision making image.webp",
@@ -123,6 +123,47 @@ export const bloglist = [
   },
   {
     id: 15,
+    title: "SALESFORCE IS SET UP, NOW WHAT? ",
+    description:
+      "Creating Community “Buy-In” The moment of implementation is finally here! You’ve created a fully customized user interface, imported all of the data, you’ve built custom sales forecasting reports, and designed sleek user friendly dashboards and you’ve even gone the...",
+    cover: "/assets/images/decision making image.webp",
+    category: "article",
+  },
+  {
+    id: 16,
+    title: "WHY OUTSOURCE SOFTWARE DEVELOPMENT? ",
+    description:
+      "In the last decade, software outsourcing has become a norm, from silicone valley to small startups in Dallas; all look to software outsourcing firms. The negative stigma associated with a lack of quality, project management gaps, language barriers, and various...",
+    cover: "/assets/images/decision making image.webp",
+    category: "Article",
+  },
+  {
+    id: 17,
+    title: "MANAGING PROJECTS DURING COVID 19 OUTBREAK ",
+    description:
+      "As we all know, our lives have changed dramatically in the last 2-3 months, depending on where you are located. Back in early January, when I was booking my flight from Austin, Texas to Dhaka Bangladesh, I had no idea or nor did I hear anything bout Covid19. The first...",
+    cover: "/assets/images/decision making image.webp",
+    category: "Article",
+  },
+  {
+    id: 18,
+    title: "WHAT IS NPS SCORE, AND WHY IS IT IMPORTANT? ",
+    description:
+      "Net promoter score or NPS is a very way of measuring customer experience which can predict business growth. NPS score is usually a customer survey which is meant to get feedback from customers, typically these feedbacks are scored from a scale of 0-10. To break this...",
+    cover: "/assets/images/decision making image.webp",
+    category: "Article",
+  },
+  {
+    id: 19,
+    title: "WHAT IS A DISTRIBUTED WORKFORCE? ",
+    description:
+      "Today’s office space isn’t the same cubicle filled, sterile environment with sounds of typing and watercooler chit-chat. This day and age offices are an open concept with trendy furniture reminiscent of chill lounges typically associated with chic hotel...",
+    cover: "/assets/images/decision making image.webp",
+    category: "Article",
+  },
+ 
+  {
+    id: 20,
     title: "SALESFORCE IS SET UP, NOW WHAT? ",
     description:
       "Creating Community “Buy-In” The moment of implementation is finally here! You’ve created a fully customized user interface, imported all of the data, you’ve built custom sales forecasting reports, and designed sleek user friendly dashboards and you’ve even gone the...",

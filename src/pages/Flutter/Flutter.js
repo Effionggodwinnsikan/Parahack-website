@@ -1,18 +1,27 @@
 import React from "react";
 import BlogHeader from "../../components/BlogHeader/BlogHeader";
-import Image from "../../assets/Images/mobile phone.jpg";
 import SideBar from "../../components/SideBar/SideBar";
 import Classes from "./Flutter.module.css";
 import Image1 from "../../assets/Images/awards.webp";
 import Schedule from "../../components/Schedule/Schedule";
+import {bloglist} from "../../config/Data/Data"
 
 const Flutter = () => {
+
+
+  const currentBlogs = bloglist.slice(1,2);
+
   return (
     <div>
+    {currentBlogs.map((blog, i) =>{
+      return(  
       <BlogHeader
-        bgImg={Image}
-        text="Top 5 Benefits of Flutter — Mobile App Development"
+       
+        {...blog }
+        key={i}
+       
       />
+    )})};
       <div className={Classes.Container}>
         <div className={Classes.ContainerPg}>
           <p>

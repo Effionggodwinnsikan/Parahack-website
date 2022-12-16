@@ -1,18 +1,24 @@
 import React from "react";
 import BlogHeader from "../../components/BlogHeader/BlogHeader";
-import Image from "../../assets/Images/happyteam.jpg";
 import SideBar from "../../components/SideBar/SideBar";
 import Classes from "./Framework.module.css";
 import Image1 from "../../assets/Images/awards.webp";
 import Schedule from "../../components/Schedule/Schedule";
+import {bloglist} from "../../config/Data/Data"
 
 const Framework = () => {
+  const currentBlogs = bloglist.slice(0,1);
   return (
     <div>
+     {currentBlogs.map((blog, i) =>{
+      return(  
       <BlogHeader
-        bgImg={Image}
-        text="Top 3 Cross-Platform Mobile App Development Frameworks"
+       
+        {...blog }
+        key={i}
+       
       />
+    )})};
       <div className={Classes.Container}>
         <div className={Classes.ContainerPg}>
           <div>

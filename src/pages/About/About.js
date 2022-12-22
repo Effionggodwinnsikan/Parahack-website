@@ -2,7 +2,7 @@ import React from "react";
 import HeroTemplate from "../../components/HeroTemplate/HeroTemplate";
 import Images from "../../assets/Images/about  image.jfif";
 import { GoFileDirectory } from "react-icons/go";
-import { FaGlobeAmericas, FaQuoteLeft } from "react-icons/fa";
+import { FaGlobeAmericas} from "react-icons/fa";
 import { AiFillTrophy } from "react-icons/ai";
 import { CgProfile } from "react-icons/cg";
 import Classes from "./About.module.css";
@@ -59,7 +59,7 @@ const About = () => {
             the World.
           </p>
         </div>
-        <div>
+        {/* <div>
           <FaQuoteLeft />
           <p>
             A lot of startups and established enterprises are continuously
@@ -71,7 +71,7 @@ const About = () => {
             <h3>Shah Tashfiq</h3>
             <p>CEO / Founder, ParaHack LLC</p>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className={Classes.speciality}>
         <div>

@@ -149,16 +149,23 @@
     .speciality h2{
         padding-bottom:2rem;
     }
-    @media (max-width:1024px){
+    @media (max-width:1078px){
         .container{
-            padding:4rem;
+            padding:3rem;
             justify-content:space-between;
             
-        
         }
+                .WhoWeAre h2{
+                    margin: 1.5rem 0 0;
+        
+                }
+                .WhoWeAre p{
+                    margin-top:0!important; ;
+        
+                }
         .Cardcontainer{
             grid-gap:1rem;
-            
+          
         }
         .Card{
             
@@ -188,7 +195,9 @@
     @media (max-width:888px){
         .container{
            flex-direction:column-reverse ;
-            
+            justify-content:center; 
+            align-items: center;
+            padding:3rem;
         
         }
         .Cardcontainer{

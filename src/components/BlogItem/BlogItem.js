@@ -12,8 +12,10 @@ const BlogItem = ( blog ) => {
     
       </div>
       <div className={Classes.BlogItemContent}>
+      <Link to={blog.link}>
         <h2>{blog.title}</h2>
         <p>{blog.description}</p>
+        </Link>
       </div>
     </div>
   );

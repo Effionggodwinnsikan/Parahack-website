@@ -8,7 +8,7 @@ const OurLocation = () => {
       <div>
         <h2>Our Location</h2>
         <p>
-          Based in Dallas, TX, with a growing team around the World, HeavyTask
+          Based in Tallinn, TX, with a growing team around the World, ParaHack
           LLC can provide support 24/7 to some of our partners. We believe
           technology is a great equalizer; we are harnessing the global talent
           pool’s power, resulting in exceptional products and services.

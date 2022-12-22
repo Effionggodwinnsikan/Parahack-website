@@ -30,14 +30,16 @@
     height:0;
     display:flex;
     overflow:hidden;
-    transition:all 600ms ease-in-out;
+    transition: opacity  0.3s ease-in-out,
+    height 0.3s 0.3s ease-in-out;
     padding:.9rem 2rem;
+    text-align:center ;
     
-}
-.AccordionAnswer .show{
+}.AccordionAnimated{
     opacity: 1;
-    height:8rem;
-    display:flex;
+    transition: opacity  0.3s ease-in-out,
+    height 0.3s 0.3s ease-in-out;
+    text-align: center;
      
 }
 .AccordionSign span{

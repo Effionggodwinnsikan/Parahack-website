@@ -9,6 +9,11 @@ padding-bottom: 3rem;
 line-height:2.2rem ;
 padding-right:3rem ;
 }
+.OurLocation{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
 @media (max-width:942px){
     .OurLocation{
         justify-content:center;
@@ -31,7 +36,9 @@ padding-right:3rem ;
         padding: 3rem;
     }
     .OurLocation img{
-        width: 90%;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
       
         }
         .OurLocation P{

@@ -213,7 +213,7 @@ const Flutter = () => {
           </p>
           <p>
             If you’re convinced that you want your mobile app to be developed
-            using Flutter, consider Heavy Task. Heavy Task has developed
+            using Flutter, consider ParaHack. ParaHack has developed
             numerous cross-platform mobile apps in the US using flutter.{" "}
           </p>
           <p>
@@ -244,7 +244,7 @@ const Flutter = () => {
             consultation or email us directly at info@heavytask.com
           </p>
           <p>We look forward to serving you soon!</p>
-          <p>Ayaan Manzur<br/> Marketing Analyst / Writer @ HeavyTask</p>
+          <p>Ayaan Manzur<br/> Marketing Analyst / Writer @ ParaHack</p>
         </div>
         <SideBar bgImg={Image1} />
       </div>

@@ -214,12 +214,18 @@ form{
         margin-right: 0;
     }
     .formContainer{
-        height:160vh;
+        height:178vh;
     }
     .formContainer img{
      
-        height: 160vh;
+        height: 178vh;
         
+    }
+    .formInnerContainer{
+        
+          margin-top: 2rem; 
+         /* flex-wrap: wrap; */
+         
     }
     .emailAddress{
         top:80%;

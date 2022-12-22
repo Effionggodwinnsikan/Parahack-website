@@ -146,10 +146,10 @@
     font-weight: var(--light);
     padding: 0.5rem 0;
 }
-.mobile :hover{
+/* .mobile :hover{
     transform:scale(1.5);
    transition: 0.3s;
-}
+} */
 .client{
     width: 100%;
     height: 50vh;
@@ -275,7 +275,7 @@
         padding:0;
        }
        .content{
-      top:3%;
+      top:1%;
       height: 100vh;
         display: flex;
         flex-direction: column;

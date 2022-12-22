@@ -100,6 +100,7 @@ const StaffAugmentation = () => {
         answer="Typically we deploy a project management methodology and also make weekly sprints to ensure there is no communication gap. For new project kickoffs or to go over specifics, we use tools such as zoom."
         active={active}
         setActive={setActive}
+        isActive={true}
       />
       <Accordion
         questions="How do we know that the team is only working on our project?"

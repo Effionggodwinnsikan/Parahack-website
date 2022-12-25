@@ -1,58 +1,59 @@
 import React, { useState } from "react";
 import Classes from "./Navbar.module.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
 import Images from "../../assets/Images/logo-img.png";
 import ButtonsItem from "../ButtonItems/ButtonItem";
+import { borderBottom } from "@mui/system";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleNav = () => setNav(!nav);
-  
+ 
 
   
 
   return (
     <div className={Classes.navbar} >
       <div className={Classes.logo}>
-        <Link to="/">
+        <NavLink  to="/">
           <img src={Images} alt="parahack logo" />
-        </Link>
+        </NavLink>
       </div>
-      <ul className={Classes.navMenu}>
+      <ul className={ Classes.navMenu} >
         <li>
-          <Link to="/" className={ nav ? Classes.active1 : Classes.navlink }>
+          <NavLink activeStyle={{color:"#049a76"}} to="/" className={  Classes.navlink }>
             Home
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/about" className={Classes.navlink}>
+          <NavLink activeStyle={{color:"#049a76" }} to="/about" className={Classes.navlink}>
             About Us
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/contact" className={Classes.navlink}>
+          <NavLink activeStyle={{color:"#049a76"}} to="/contact" className={Classes.navlink}>
             Contact
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/services" className={Classes.navlink}>
+          <NavLink activeStyle={{color:"#049a76"}} to="/services" className={Classes.navlink}>
             Our Services
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/blog" className={Classes.navlink}>
+          <NavLink activeStyle={{color:"#049a76"}} to="/blog" className={Classes.navlink}>
            Blog
-          </Link>
+          </NavLink>
         </li>
       </ul>
       
-      <Link to="/contact">
+      <NavLink activeStyle={{color:"#049a76"}} to="/contact">
       <ButtonsItem
       text={"Get Started"}
       />
-      </Link>
+      </NavLink>
       
       <div className={Classes.hamburger} onClick={handleNav}>
         {!nav ? (
@@ -65,29 +66,29 @@ const Navbar = () => {
       <div className={nav ? Classes.active : Classes.mobileMenu}>
         <ul className={Classes.mobileNav}>
           <li>
-            <Link to="/" className={Classes.navlink}>
+            <NavLink to="/" className={Classes.navlink}>
               Home
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/about" className={Classes.navlink}>
+            <NavLink to="/about" className={Classes.navlink}>
               About Us
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/contact" className={Classes.navlink}>
+            <NavLink to="/contact" className={Classes.navlink}>
               Contact
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/services" className={Classes.navlink}>
+            <NavLink to="/services" className={Classes.navlink}>
               Our Services
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/blog" className={Classes.navlink}>
+            <NavLink to="/blog" className={Classes.navlink}>
               Blog
-            </Link>
+            </NavLink>
           </li>
         </ul>
         

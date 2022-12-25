@@ -106,7 +106,7 @@ const SoftwareDevelopment = () => {
         <div className={Classes.coverage}>
           <h2>FULL LIFECYCLE COVERAGE</h2>{" "}
           <p>
-            HeavyTask’s full-stack development experts implement your software
+            ParaHack’s full-stack development experts implement your software
             solution from the ground up, including frontend development, backend
             transformation, and integration to software middleware. Software
             Development Cycle

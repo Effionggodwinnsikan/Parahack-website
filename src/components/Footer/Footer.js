@@ -77,12 +77,16 @@ const Footer = () => {
         </div>
         
         <div className={Classes.iconContainer}>
+          <a  href="https://www.facebook.com/oneparahack">
           <FaFacebookF className={Classes.icon} />
-          <FaTwitter className={Classes.icon} />
+          </a>
+          {/* <FaTwitter className={Classes.icon} /> */}
+          <a href="https://www.linkedin.com/company/parahack/">
           <GrLinkedinOption className={Classes.icon} />
-          <FaInstagram className={Classes.icon} />
+          </a>
+          {/* <FaInstagram className={Classes.icon} />
           <FaDribbble className={Classes.icon} />
-          <AiFillGitlab className={Classes.icon} />
+          <AiFillGitlab className={Classes.icon} /> */}
         </div>
       </div>
     </div>
